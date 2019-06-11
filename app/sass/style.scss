@@ -1,0 +1,93 @@
+
+@import "base/variables";
+@import "base/libs/font-size";
+@import "base/mixins";
+
+@import "base/reset/normalize";
+@import "base/reset/reset";
+@import "base/libs/font-size";
+
+// слайдер
+@import "site/slick";
+@import "site/slick-theme";
+
+@import "grid/main";
+
+//@import "hack/grid";
+
+@import "site/header";
+@import "site/navbar";
+@import "site/all";
+@import "site/main/es_main1";
+@import "site/main/es2";
+@import "site/main/b-vid-remonta";
+@import "site/main/b-sms_bg";
+@import "site/main/es7_5";
+@import "site/main/waiting_reality7";
+@import "site/main/b-free_bg8";
+@import "site/main/b-kosmet-remont9";
+@import "site/main/quick-calculation10";
+@import "site/main/b-raschet11";
+@import "site/main/b-way12";
+@import "site/main/es3_13";
+@import "site/main/b_windownow_bg14";
+@import "site/main/es12_bg_15";
+@import "site/main/es13_bg16";
+@import "site/main/giving17";
+@import "site/main/reviews18";
+@import "site/main/es16_bg20";
+@import "site/main/es17_bg21";
+@import "site/main/es18_bg22";
+@import "site/footer";
+//@import "test";
+// rasr
+@import "site/rasr/rassr_bg";
+@import "site/rasr/rast_windownow_bg";
+@import "site/rasr/b-rassr";
+// отзывы
+@import "site/otzivi/es1_otzivy_bg";
+@import "site/otzivi/d-otziv-form";
+// где купить
+@import "site/gdekypit/contact-wrap";
+@import "site/gdekypit/b-contact";
+@import "site/gdekypit/b_contact_ceo_bg";
+// акции
+@import "site/aktsii/aktsii-wrap";
+@import "site/aktsii/block-action";
+//
+@import "site/modal/gift";
+@import "site/modal/happy";
+@import "site/modal/kupitdeshevle";
+
+// 2. БАЛКОНЫ
+@import "site/balcons/template";
+
+// БАЛКОНЫ - главная
+@import "site/balcons/main/es1";
+@import "site/balcons/main/es2_balcons";
+@import "site/balcons/main/es3_balcons";
+@import "site/balcons/main/es4_balcons";
+@import "site/balcons/main/es5_balcons";
+@import "site/balcons/main/es6_balcons";
+@import "site/balcons/main/es7_balcons";
+@import "site/balcons/main/es8_balcons";
+@import "site/balcons/main/es9_correct_balcony";
+@import "site/balcons/main/es10_repairs_balcony";
+@import "site/balcons/main/es20_balcony";
+@import "site/balcons/main/es21_balcony";
+
+// БАЛКОНЫ - отделка балконов
+@import "site/balcons/finishing_balconies/b1_finishing_balconies";
+@import "site/balcons/finishing_balconies/b2_finishing_balconies_calc";
+@import "site/balcons/finishing_balconies/b3_tab-block";
+
+@import "site/balcons/calc/calc";
+
+@import "site/balcons/contact-wrap-balcon/contact-wrap-balcon";
+
+@import "site/balcons/accii/accii_temp";
+
+
+@import "site/balcons/rassr_balcons/rassr_balcons";
+
+@import "site/balcons/cens/b_windownow_bg_temp2";

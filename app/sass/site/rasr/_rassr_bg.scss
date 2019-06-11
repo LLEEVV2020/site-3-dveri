@@ -1,0 +1,115 @@
+.rassr_bg.es1{
+    font-family: "Montserrat", sans-serif;
+    background-image: url(../img/rasr_bg.jpg);
+    min-height: 550px;
+    margin-bottom: 0;
+    @media only screen and (max-width: 992px) {
+        min-height: 600px;
+    }
+    @media only screen and (max-width: 767px){
+        min-height: auto;
+    }
+    
+    
+
+    .es1__pict {
+        background: url(../img/rasr_gerl.png) top right no-repeat;
+        @media only screen and (max-width: 992px) {
+            top: 101px;
+        }
+        
+
+    }
+    .es1__block{
+        margin-top: 60px;
+        @media only screen and (max-width: 767px){
+            margin-top: 40px;
+        }
+    }
+    @media only screen and (max-width: 767px){
+        .es1__menu{
+            margin-bottom: 0;
+        }
+    }
+    
+    h1{
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 59px;
+        text-transform: uppercase;
+        color: #000000;
+        @media only screen and (max-width: 767px){
+            font-size: 40px;
+        line-height: 50px;
+        }
+        span{
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 59px;
+
+            text-transform: uppercase;
+            color: #000000;
+            @media only screen and (min-width: 1200px) {
+                display: block;
+            }
+            @media only screen and (max-width: 767px){
+                font-size: 40px;
+            line-height: 50px;
+            }
+        }
+    }
+    .text{
+        margin-bottom: 31px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #000000;
+        
+        @media only screen and (max-width: 767px){
+            text-align: center;
+            width: 100%;
+        }
+    }
+    .banks{
+        display: flex;
+        align-items: center;
+        
+        img+img{
+            margin-left: 20px;
+            @media only screen and (max-width: 767px){
+                margin: 10px;
+                
+            }
+        }
+        @media only screen and (max-width: 767px){
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+    }
+
+    .es1__menu_item{
+        text-transform: none;
+    }
+    .es1__menu_item:last-child{
+        margin-bottom: 54px;
+    }
+    .es1__menu_item::before{
+        background-position: 0 0;
+    }
+    .es1__menu_item.lbl1::before{
+        background-image: url(../img/ico11.png);
+    }
+
+    .es1__menu_item.lbl2::before{
+        
+        background-image: url(../img/ico22.png);
+    }
+
+    .es1__menu_item.lbl3::before{
+        
+        background-image: url(../img/ico33.png);
+    }
+}

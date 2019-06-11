@@ -1,0 +1,144 @@
+.es13_bg{
+    background-image: url(../img/b_market_filtr_bg.png);
+    background-color: #015B77;
+    padding-top: 40px;
+    padding-bottom: 21px;
+    .container{
+        max-width: 750px;
+    }
+
+    
+    .digit{
+        width: 68px;
+        height: 124px;
+        background-color: #fff;
+        padding: 10px 2px;
+        border-radius: 0;
+    }
+    .digit.static{
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 104px;
+        width: 68px;
+        text-align: center;
+        color: #000000;
+        background-color: #fff;
+        background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.5, #EDEDED), color-stop(0.5, #FFFFFF) );
+        
+    }
+    .position{
+        height: 124px;
+        width: 68px;
+    }
+    .position + .position{
+        margin-left: 20px;
+    }
+    .countdownHolder{
+        font-family: "Montserrat", sans-serif;
+        font-size: 48px;
+        letter-spacing: -1px;
+        margin: 0px auto 70px auto;
+        @media only screen and (max-width: 580px) {
+            margin-bottom: 50px;
+        }
+    }
+    .countDiv{
+        width: 30px;
+        @media only screen and (max-width: 580px) {
+            height: 20px;
+        }
+    }
+    .countHours, .countMinutes, .countSeconds{
+        background: none;
+        position: relative;
+        @media only screen and (max-width: 580px) {
+            display: block;
+        }
+        &::before{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #FFFFFF;
+            position: absolute;
+            bottom: -27px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-transform: uppercase;
+            
+        }
+    }
+    .countHours::before {
+        content: "ЧАСОВ";
+    }
+    .countMinutes::before{
+        content: "МИНУТ";
+    }
+    .countSeconds::before{
+        content: "СЕКУНД";
+    }
+    .es13_input{
+        background: #FAFAFA url(../img/b_sms_input.png) no-repeat;
+        width: 264px;
+        height: 40px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-right: 30px;
+        padding-top: 12px;
+        text-align: left;
+        @media only screen and (max-width: 580px) {
+            margin-right: 0;
+        }
+        input{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            border: 0px;
+            background: none;
+            margin-left: 40px;
+            
+        }
+
+    }
+    .es13_block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media only screen and (max-width: 580px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        .red-pink-button{
+            margin-left: 0;
+            @media only screen and (max-width: 580px) {
+                margin-bottom: 20px;
+                span{
+                    display: none;
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+.agreement{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 10px;
+    color: #000000;
+    a{
+        text-decoration-line: underline;
+        color: #000000;
+    }
+    &.white{
+        color: #fff;
+        a{
+            color: #fff;
+        }
+    }
+}

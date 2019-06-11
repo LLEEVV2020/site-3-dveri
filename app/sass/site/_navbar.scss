@@ -1,0 +1,252 @@
+.top_menu.navbar-default{
+    .container{
+        @media only screen and (max-width: 767px){
+            padding: 0;
+        }
+    }
+    .navbar-brand{
+        @media only screen and (max-width: 767px){
+            margin-top: 6px;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+
+            text-align: center;
+            
+            color: #FFFFFF;
+        }
+    }
+    .navbar-toggle{
+        margin: 15px 15px 15px 0;
+        padding: 0;
+        border: 0;
+        
+        .icon-bar {
+            background-color: #fff;
+            width: 30px;
+            height: 6px;
+        }
+        .icon-bar + .icon-bar {
+            margin-top: 6px;
+        }
+    }
+
+
+
+    margin-top: 0;
+    background: linear-gradient(180deg, #FFC93C 0%, #F2AD27 100%);
+    .main-menu-more{
+        display: none;
+    }
+    .menu-top-menu-container{
+        width: 100%;
+    }
+    .navbar-nav {
+        display: flex;
+        width: 100%;
+        @media only screen and (max-width: 767px) {
+            flex-direction: column;
+            margin:  0;
+        }
+        
+        & > li{
+            position: relative;
+            @media only screen and (max-width: 767px) {
+                margin-top: 0px;
+            }
+            & > ul{
+                position: absolute;
+                display: none;
+                @media only screen and (max-width: 767px) {
+                    position: static;
+                }
+                top: 100%;
+                left: 0;
+                background-color: #fff;
+                li + li > a{
+                    border-top: 1px solid #EDEDED;
+                    @media only screen and (max-width: 767px) {
+                        border-top: 0 solid #EDEDED;
+                    }
+                }
+                a{
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 17px;
+                    padding: 12px 10px 11px;
+                    color: #000000;
+                    display: block;
+                    text-transform: uppercase;
+                    &:hover{
+                        background-color: #d9d9d9;
+                    }
+                    
+                }
+            }
+            
+            &:hover > ul{
+                display: block;
+            }
+        }
+        & > li > a{
+            @media only screen and (min-width: 768px) {
+                min-height: 60px;
+                text-align: center;
+                justify-content: center;
+            }
+            @media only screen and (max-width: 767px) {
+                padding:  19px  15px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                justify-content: center;
+            }
+            
+        }
+        & > li.active,
+        & > li.current_page_item{
+            & > a{
+                
+                /* identical to box height */
+
+                text-align: center;
+                
+                
+                @media only screen and (max-width: 767px) {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    background-color: #fff;
+                    color: #000;
+                    white-space: nowrap;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+            
+        }
+        & > li.last,
+        & > li:last-child,
+        & > li.current_page_item:last-child:hover{
+            background-image: url(../img/menu_aksii.png);
+            @media only screen and (max-width: 767px) {
+                background-image: none !important;
+            }
+            background-size: cover;
+            a{
+                background-color: transparent !important;
+               // font-weight: normal;
+                color: #fff;
+                @media only screen and (max-width: 767px) {
+                    color: #000;
+                    font-weight: 500;
+                }
+            }
+            a:hover{
+                @media only screen and (max-width: 767px) {
+                    color: #fff;
+                }
+            }
+        }
+        & > li.last.active,
+        & > li.last:hover,
+        & > li.current_page_item,
+        & > li:last-child:hover {
+            
+            
+            & > a{
+                @media only screen and (max-width: 767px) {
+                    background-color: #1C819E !important;
+                    color: #FFFFFF;
+                }
+            }
+            
+        }
+        & > li:last-child:hover{
+            background-image: url(../img/menu_aksii_active.png);
+        }
+        & > li.current_page_item{
+           & >  a{
+                @media only screen and (min-width: 768px) {
+                    background-color: #1C819E !important;
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+
+    }
+    .container{
+        display: flex;
+        @media only screen and (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .navbar-collapse{
+        @media only screen and (max-width: 767px) {
+            background-color: #fff;
+            border-top: 0 solid #fff;
+            li:last-child{
+                padding-bottom: 20px;
+            }
+            
+        }
+    }
+
+    .navbar-nav {
+        /*hack menu wordpress*/
+        .menu-item-has-children{
+            position: relative;
+            & > a{
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            & > button{
+                position: relative;
+                width: 100%;
+                opacity: 0;
+            }
+            .sub-menu{
+                width: 100%;
+                li:first-child{
+                    display: none;
+                }
+            }
+        }
+    }
+    
+} 
+.navbar{
+    height: auto;
+}
+.navbar-collapse{
+    padding-right: 0; 
+    padding-left: 0; 
+    width: 100%;
+}
+@media (min-width: 768px){
+    .navbar-collapse.collapse {
+        display: flex !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
+    .navbar-header {
+        display: none;
+    }
+    .navbar-nav > li{
+        float: none;
+        display: flex;
+        text-align: center;
+        width: 20%;
+        a{
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
+

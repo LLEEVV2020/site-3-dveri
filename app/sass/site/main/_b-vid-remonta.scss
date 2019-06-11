@@ -1,0 +1,87 @@
+.wrap-b-vid-remonta{
+    background-color: #015B77;
+    padding-top: 40px;
+    h2, .h2{
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;/* identical to box height */
+        
+        
+        color: #FFFFFF;
+    
+    }
+    .b-vid-remonta__item{
+        width: 30%;
+        @media only screen and (max-width: 1200px) {
+            margin-left: 2vw;
+            margin-right: 2vw;
+            width: 41%;
+          }
+          @media only screen and (max-width: 680px) {
+            width: 100%;
+            max-width: 370px;
+            margin-left: 0;
+            margin-right: 0;
+          }
+          
+      
+    }
+    .b-vid-remonta__item_pict{
+        height: 225px;
+    }
+    .b-vid-remonta__price_new{
+        font-size: 32px;
+        margin-top: 13px;
+        line-height: 39px;
+    }
+    .b-vid-remonta__price_old{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .b-vid-remonta__item_ttl {
+        height: 80px;
+        span{
+            font-size: 24px;
+            line-height: 29px;
+        }
+        &:after{
+            height: 80px;
+        }
+    }
+    p{
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    
+    input::placeholder{
+        font-weight: 500 !important;
+    }
+    input::-moz-placeholder {
+        font-weight: 500 !important;
+    }
+
+    input:-ms-input-placeholder {
+        font-weight: 500 !important;
+    }
+
+    input::-webkit-input-placeholder {
+        font-weight: 500 !important;
+    }
+    .b-vid-remonta__item_spisok .check li{
+        font-size: 18px;
+        line-height:  22px;
+        padding-top: 3px;
+        margin-bottom: 19px;
+    }
+
+
+}

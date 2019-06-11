@@ -1,0 +1,170 @@
+.b-sms_bg{
+    .b-sms-form{
+        
+       
+       max-width: 66%;
+        @media only screen and (max-width: 1200px) {
+            max-width: 58%;
+        }
+
+        @media only screen and (max-width: 992px) {
+            max-width: 100%;
+        }
+        .b-sms__text{
+            font-size: 32px;
+            line-height: 39px;
+        }
+        .b-sms__undertext{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+    .b-sms_input {
+        input{
+            font-size: 14px;
+        }
+    }
+    //background-color: aquamarine;
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+    .flex-container::before,
+    .flex-container::after{
+        display: none;
+    }
+    
+    
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 23px;
+        margin-bottom: 25px;
+        color: #000000;
+        a{
+            text-decoration-line: underline;
+            color: #000000;
+        }
+    }
+    .img-block{
+        position: relative;
+        &>img{
+            transform: scale(0.9) translateY(-10px);
+        }
+    }
+    
+    /*
+    Плагинная вещь - стили
+    */
+    .b-beforeAfter__item:last-child {
+        margin-left: 0;
+    }
+    .b-beforeAfter__item{
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        .b-beforeAfter__item_slider{
+            border-radius: 4px;
+            background-clip: padding-box;
+            background-color: #fff;
+            box-sizing: border-box;
+            padding: 4px;
+            img{
+                border-radius: 4px;
+            }
+        }
+        
+        .twentytwenty-handle{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -13px;
+            margin-top: -15px;
+            background: #FBC035 url(../img/s-handle.png) center center no-repeat;
+            z-index: 40;
+            cursor: pointer;
+            width: 26px;
+            height: 25px;
+            border-radius: 50%;
+        }
+    }
+
+    .twentytwenty-horizontal .twentytwenty-handle:before, 
+    .twentytwenty-horizontal .twentytwenty-handle:after, 
+    .twentytwenty-vertical .twentytwenty-handle:before, 
+    .twentytwenty-vertical .twentytwenty-handle:after{
+        background-color: #FBC035;
+        width: 2px;
+        box-shadow: none;
+    }
+
+    .twentytwenty-horizontal .twentytwenty-handle:before, 
+    .twentytwenty-vertical .twentytwenty-handle:before{
+        margin-bottom: 13px;
+        margin-left: -1px;
+    }
+
+    
+    
+    .twentytwenty-vertical .twentytwenty-handle:after,
+    .twentytwenty-horizontal .twentytwenty-handle:after{
+        margin-top: 13px;
+        margin-left: -1px;
+    }
+}
+
+input::placeholder{
+    color: #D0D0D0 !important;
+}
+input::-moz-placeholder {
+    color: #D0D0D0;
+    opacity: 1;
+}
+
+input:-ms-input-placeholder {
+    color: #D0D0D0;
+}
+
+input::-webkit-input-placeholder {
+    color: #D0D0D0;
+}
+
+.sms-discount.b-sms_bg{
+    .b-sms__undertext{
+        margin-bottom: 23px;
+    }
+    p{
+        margin-top: 12px;
+    }
+}
+
+.sms-discount.b-sms_bg,
+.design-project.b-sms_bg {
+    @media (max-width: 1200px){
+        .b-sms__undertext{
+            margin-bottom: 18px;
+        }
+        p{
+            margin-top: 6px;
+        }
+    }
+    
+
+}
+
+.design-project.b-sms_bg{
+    margin: 0px auto -30px;
+    .b-sms-form{
+        max-width: 612px;
+    }
+
+
+}

@@ -1,0 +1,16 @@
+#call_zamershikk{
+    text-align: center;
+}
+#call_zamershikk span{
+    display: inline-block;
+    cursor: pointer;
+    background-color: #fce101;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid #fff;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 0 25px;
+}

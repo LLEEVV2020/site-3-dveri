@@ -1,0 +1,101 @@
+.h2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.map-wrapper{
+    background-color: #EDEDED;
+}
+.es3__phone_number::before{
+    display: none;
+}
+
+
+.red-pink-button{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E21F69), to(#A3003D));
+    background: linear-gradient(180deg, #E21F69 0%, #A3003D 100%);
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #FFFFFF;
+    display: block;
+    margin-left: 15px;
+    padding: 9px 15px;
+}
+
+.icon-sprite, 
+.icon-S, 
+.b-tipov__flat_item-S:before,
+ .icon-after,
+  .b-15-days__item._after .b-15-days__item_ttl span:after, 
+  .icon-before, 
+  .b-15-days__item._before .b-15-days__item_ttl span:after, 
+  .icon-birka, 
+  .red-button._garantiya:before, 
+  .icon-check, 
+  .b-vid-remonta__item_spisok .check li:before, 
+  .icon-lbl1, 
+  .es1__menu_item.lbl1:before, 
+  .icon-lbl2, 
+  .es1__menu_item.lbl2:before, 
+  .icon-lbl3, 
+  .es1__menu_item.lbl3:before, 
+  .icon-mdl1, 
+  .b-middle-menu__item.mdl1:before,
+   .icon-mdl2, 
+   .b-middle-menu__item.mdl2:before,
+    .icon-mdl3,
+     .b-middle-menu__item.mdl3:before,
+      .icon-mkv, 
+      .b-raschet__form .b-form__item .b-form__field:after,
+       .icon-phone, 
+       .es3__phone_number:before,
+.icon-prezent,
+.b-prezent__ttl:before, 
+.icon-rash, 
+.b-raschet__form .b-form__item .b-form__field:before, 
+.icon-seo, .icon-str, 
+.b-footer-menu_slogan:after, 
+.icon-str2, 
+.b-footer-menu_slogan:before, 
+.icon-time, 
+.b-time:before, 
+.icon-ugl, 
+.es4__form_item._phone:before, 
+.icon-zamer, 
+s.b-zamer:before {
+    background-image: url(../img/icon-s01679a48fb.png);
+    background-repeat: no-repeat;
+}
+
+.bounceInRight,
+.fly_girl,
+.toptop{
+    display: none;
+}
+
+
+.es1-skidka{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.es16_bg .zoom-gallery-info-text{
+    bottom: -40px !important;
+}
+
+.es13_bg .countSeconds ~ span {
+    display: none !important;
+}

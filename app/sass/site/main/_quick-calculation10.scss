@@ -1,0 +1,73 @@
+.quick-calculation{
+    background-image: url(../img/b_market_filtr_bg.png);
+    background-color: #F7C858;
+    padding-top: 35px;
+
+    h2, .h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;/* identical to box height */
+        text-align: center;
+        
+        color: #000000;
+        margin-bottom: 37px;
+    }
+
+    .item{
+        border: 4px solid #FFFFFF;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        max-width: 352px;
+        width: 100%;
+        height: 212px;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin-bottom: 55px; 
+        @media only screen and (max-width: 1200px) {
+            margin-bottom: 60px;
+        }
+        div{
+            background: linear-gradient(180deg, #1B809D 0%, #015B77 100%);
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;/* identical to box height */
+            text-align: center;
+            padding: 9px 18px;
+            color: #FFFFFF;
+            margin-bottom: -20px;
+            cursor: pointer;
+        }
+        
+    }
+
+    .item-1{
+        background-image: url(../img/item-1.jpg);
+    }
+    .item-2{
+        background-image: url(../img/item-2.jpg);
+    }
+    .item-3{
+        background-image: url(../img/item-3.jpg);
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media only screen and (max-width: 1200px) {
+            justify-content: space-around;
+        }
+        @media (max-width: 991px){
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+
+}

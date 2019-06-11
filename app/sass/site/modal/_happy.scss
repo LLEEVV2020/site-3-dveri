@@ -1,0 +1,101 @@
+#happy{
+    background: rgba(0, 0, 0, 0.4);
+    .modal-dialog{
+        background: #FFFFFF url(../img/happy_bg_.png) no-repeat center bottom;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        width: 458px;
+        height: 609px;
+
+        .modal-header{
+            padding: 10px;
+            height: 28px;
+        }
+        #clock_wrapper{
+            display: none;
+        }
+    
+        h2{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;/* identical to box height */
+            text-align: center;
+            text-transform: uppercase;
+            color: #DF0054;
+            margin-bottom: 18px;
+        }
+        p{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            margin-bottom: 0;
+            color: #000000;
+            span{
+                font-weight: bold;
+                color: #DF0054;
+            }
+        }
+        .modal_form_happy{
+            margin-top: 21px;
+
+            .form-group{
+				background: #FFF url(../img/b_sms_input2.png) center left no-repeat;
+				background-position-x: 8px; 
+			    width: 281px;
+			    height: 40px;
+			    border-radius: 5px;
+			    display: block;
+			    
+			    margin-right: auto;
+				margin-left: auto;
+				display: flex;
+				align-items: center;
+				text-align: left;
+				border: 1px solid #D0D0D0;
+				box-sizing: border-box;
+				border-radius: 5px;
+				margin-bottom: 17px;
+				@media only screen and (max-width: 768px){
+					width: 220px;
+				}
+			    
+                input{
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+                    border: none;
+                    background: none;
+                    color: #D0D0D0;
+                    margin-left: 39px;
+                }
+            }
+            .form-group + .form-group{
+                margin-bottom: 21px;
+            }
+            .red-button{
+                background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+                box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 20px;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;/* identical to box height */
+                text-align: center;
+                text-transform: uppercase;
+                color: #000000;
+                padding: 9px 19px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 281px;
+                @media only screen and (max-width: 768px){
+                    font-size: 16px;
+                    line-height: 20px;
+                    width: 220px;
+                }
+                
+            }
+        }
+
+    }
+    
+}

@@ -1,0 +1,54 @@
+.es18_bg{
+    background: #FBC035;
+    padding: 19px 0;
+    h3{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;/* identical to box height */
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .angle-angle{
+        font-style: normal;
+        width: 20px;
+        height: 14px;
+        background-image: url(../img/angle_angle.png);
+        display: inline-block;
+    }
+    .flex-container{
+        max-width: 750px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media only screen and (max-width: 767px){
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    }
+    a{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;/* identical to box height */
+        text-decoration-line: underline;
+
+        color: #015B77;
+        a:hover{
+            text-decoration-line: none;
+        }
+    }
+    @media only screen and (max-width: 767px){
+        .angle-angle{
+            transform: rotate(90deg);
+        }
+        a{
+            margin-top: 5px;
+        }
+        h3{
+            margin-bottom: 5px;
+        }
+    }
+    
+}

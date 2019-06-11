@@ -1,0 +1,52 @@
+.rast_windownow_bg{
+    background-color: #015B77;
+    padding-top: 54px;
+    height: 366px;
+    @media only screen and (max-width: 768px) {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    h4{
+        color: #fff;
+        text-align: left;
+        margin-bottom: 24px;
+        font-size: 32px;
+        color: #FBC035;
+
+        @media only screen and (max-width: 768px) {
+            text-align: center;
+        }
+    }
+    
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 43px;
+        color: #FFFFFF;
+    }
+    a.b_windownow__btn{
+        display: inline-block;
+        padding: 9px 15px;
+        background: linear-gradient(180deg, #E21F69 0%, #A3003D 100%);
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    }
+    .b_windownow_man{
+        margin-top: -42px;
+        @media only screen and (max-width: 1200px){
+            display: block;
+        }
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
+
+    }
+    @media only screen and (max-width: 768px) {
+        .b_windownow_block{
+            text-align: center;
+        }
+    }
+
+}

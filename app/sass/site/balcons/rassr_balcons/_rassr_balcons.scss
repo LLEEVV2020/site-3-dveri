@@ -1,0 +1,40 @@
+.rassr_balcons.rassr_bg.es1{
+    background-image: url(../img/rassr_balcons.jpg);
+    .decor_0{
+        position: relative;
+        display: flex;
+        &::after{
+            content: "0%";
+            //display: block;
+            //position: absolute;
+            font-weight: bold;
+            font-size: 96px;
+            line-height: 90px;
+            text-transform: uppercase;
+            color: #DD0053;
+            padding-left: 15px;
+            
+        }
+    }
+    .text{
+        max-width: 445px;
+    }
+    .es1__block {
+        padding-bottom: 26px;
+    }
+
+    .es1__block{
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.6) 68.11%, rgba(255, 255, 255, 0) 100%);
+        max-width: 559px;
+        margin-top: 0;
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+    
+}
+
+.rast_windownow_bg.rast_windownow_bg_gerl{
+    .b_windownow__btn{
+        min-width: 320px;
+    }
+}

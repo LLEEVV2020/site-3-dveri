@@ -1,0 +1,66 @@
+.es10_repairs_balcony{
+    background: #FBC035 url(../img/repairs_bg.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 584px;
+    padding: 40px 0;
+    .repairs-wrapper{
+        background: #FFFFFF;
+        opacity: 0.8;
+        padding: 20px 20px 14px;
+        width: 558px;
+        @media only screen and (max-width: 992px){
+            width: 100%;
+        }
+        min-height: 504px;
+        .h2{
+            margin-bottom: 37px;
+        }
+        .item{
+            display: flex;
+            align-items: center;
+            margin-bottom: 14px;
+            &::before {
+                content: "";
+                background:  url(../img/accept-circular-button-outline.png) center no-repeat;
+                width: 20px;
+                height: 20px;
+                margin-right: 20px;
+            }
+            &> div{
+                font-size: 24px;
+                line-height: 29px;
+
+                color: #000000;
+            }
+            .name{
+                flex: 1;
+            }
+            .discount{
+                font-weight: bold;
+                color: #DD0053;
+                margin-left: 50px;
+            }
+            .price{
+                margin-left: 10px;
+                width: 110px;
+                text-align: right;
+            }
+            
+        }
+        p{
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #000000;
+            margin-top: 30px;
+            span{
+                font-size: 32px;
+                line-height: 39px;
+                font-weight: bold;
+                
+                color: #DF0054;
+            }
+        }
+    }
+    
+}

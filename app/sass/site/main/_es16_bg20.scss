@@ -1,0 +1,35 @@
+.es16_bg{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    @media only screen and (max-width: 992px){
+        height: auto;
+    }
+    z-index: 2;
+    position: relative;
+    h2, .h2{
+        margin-bottom: 40px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;/* identical to box height */
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .thanky{
+        width: 951px;
+        zoom-gallery{
+            width: 951px;
+        }
+    }
+    #thanky-left-button{
+        left: -10vw;
+    }
+    #thanky-right-button{
+        right: -10vw;
+    }
+    .onmobile{
+        padding-bottom: 30px;
+    }
+}

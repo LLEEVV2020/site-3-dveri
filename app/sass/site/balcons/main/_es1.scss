@@ -1,0 +1,94 @@
+.es1{
+    .es1-wrapper-decor{
+        background: rgba(255, 255, 255, 0.6);
+        padding: 26px 29px 22px;
+        max-width: 430px;
+        margin-bottom: 127px;
+    }
+    p{
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+
+
+        color: #000000;
+    }
+
+    h1{
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 59px;
+        text-transform: uppercase;
+        color: #000000;
+        text-transform: uppercase;
+        span{
+            display: block;
+        }
+    }
+    h2{
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 98px;
+        text-align: left;
+
+
+        color: #DD0053;
+    }
+    .es1__pict{
+        background: url(../img/es1_main.png) top center no-repeat;
+        z-index: 6;
+        background-position-x: 300px;
+    }
+    .es1-flex-wrap{
+        position: relative;
+        .name-abs{
+            position: absolute;
+            top: 30%;
+            left: 54%;
+            @media only screen and (max-width: 1200px){
+                display: none;
+            }
+            span{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: bold;
+                color: #000000;
+                display: block;
+            }
+            span + span{
+                font-weight: 500;
+            }
+        }
+    }
+    .block-calculate.b-top__zamer{
+        background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 41px;
+        z-index: 8;
+        position: relative;
+         
+         .b-top__zamer_ruler{
+            background-image: url(../img/calculate.png);
+            background-repeat: no-repeat;
+            width: 63px;
+            height: 75px;
+            margin-top: -3px;
+            margin-left: 10px;
+         }
+         .b-top__zamer_txt{
+            color: #000000;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            span{
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 34px;
+            }
+         }
+    }
+}
+.es1._main{
+    margin-bottom: 0;
+}

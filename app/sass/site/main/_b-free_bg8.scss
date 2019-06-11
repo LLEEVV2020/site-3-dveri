@@ -1,0 +1,36 @@
+
+.b-free_bg{
+    margin-top: 40px;
+    margin-bottom: 0;
+    background-image: url(../img/b_market_filtr_bg.png);
+    background-color: #015B77;
+    padding-top: 0;
+    padding-bottom: 0;    
+    .b-sms-form{
+        max-width: 612px;
+    }
+    .b-sms__text{
+        color: #fff;
+        padding-top: 30px;
+        span{
+            color: #FBC035;
+        }
+    }
+    .b-sms__undertext{
+        color: #fff;
+    }
+    p{
+        color: #fff;
+        a{
+            color: #fff;
+        }
+    }
+    .b-sms_phone{
+        transform: translateY(-30px);
+    }
+
+    @media only screen and (max-width: 992px){
+        padding-bottom: 30px;
+    }
+}
+    

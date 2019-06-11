@@ -1,0 +1,83 @@
+.es1.block-action{
+    background: url(../img/accii-bg.jpg) center top no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    height: 560px;
+    overflow: hidden;
+    .container{
+        height: 100%;
+    }
+    .es1__pict{
+        background: url(../img/accii-men.png) top right no-repeat;
+        background-position-x: 90%;
+        background-position-y: bottom;
+        top: 0;
+        @media only screen and (max-width: 1200px) {
+
+            background-position-x: 105%;
+        }
+        @media only screen and (max-width: 992px) {
+            background-position-x: 125%;
+        }
+        @media only screen and (max-width: 768px) {
+            
+        }
+    }
+    .es1__block{
+        padding-top: 62px;
+        margin-top: 0;
+        height: 100%;
+        margin-left: 8.5%;
+        @media only screen and (max-width: 768px) {
+            margin-left: 0;
+        }
+        h1{
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 59px;
+            
+            color: #000000;
+
+            text-transform: uppercase; 
+            @media only screen and (max-width: 478px) {
+                font-size: 40px;
+            }
+            span{
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 59px;
+                display: block;
+                color: #015A76;
+                text-transform: uppercase; 
+                @media only screen and (max-width: 478px) {
+                    font-size: 40px;
+                }
+            }
+        }
+        .action-img{
+           // margin-top: -45px;
+            @media only screen and (max-width: 768px) {
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+            }
+            img{
+                transform: translate(70px, 0);
+                @media only screen and (max-width: 992px) {
+                    transform: translate(0px, 10px);
+                }
+                @media only screen and (max-width: 768px) {
+                    transform: none;
+                    display: block;
+                    max-width: 100%;
+
+                }
+            }
+        }
+    }
+
+
+
+
+
+}

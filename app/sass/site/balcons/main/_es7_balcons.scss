@@ -1,0 +1,107 @@
+.es7_balcons{
+    background-image: url(../img/b_market_filtr_bg.png);
+    background-color: #FBC035;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    form{
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        @media only screen and (max-width: 1200px){
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+    }
+    .sketch{
+        position: relative;
+        width: 158px;
+        height: 50px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        @media only screen and (max-width: 1200px){
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+            border-radius: 50%;
+            background-image: url(../img/sketch.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        input{
+            opacity: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .sketch-text{
+            display: block;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-decoration-line: underline;
+
+            color: #000000;
+            span{
+                display: block;
+            }
+        }
+    }
+    .form-group{
+        margin-right: 15px;
+    }
+    .form-group + .form-group{
+        margin-right: 30px;
+        @media only screen and (max-width: 1200px){
+            margin-right: 0;
+        }
+    }
+    .red-button{
+        background: linear-gradient(180deg, #1B809D 0%, #015B77 100%);
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+        width: 264px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        @media only screen and (max-width: 1200px){
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .block-sketch-submit{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        @media only screen and (max-width: 1200px){
+            margin-top: 15px;
+        }
+        
+    }
+    .text{
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        margin-bottom: 34px;
+        color: #000000;
+    }
+    p{
+        font-size: 12px;
+        line-height: 15px;
+        
+        color: #000000;
+    }
+}

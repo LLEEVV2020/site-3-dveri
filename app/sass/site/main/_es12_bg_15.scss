@@ -1,0 +1,25 @@
+.es12_bg{
+    padding-bottom: 50px;
+    padding-top: 40px;
+    h2, .h2 {
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 33px;
+    }
+    .es12__block{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media only screen and (max-width: 992px) {
+            justify-content: center;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        padding-bottom: 20px;
+    }
+}

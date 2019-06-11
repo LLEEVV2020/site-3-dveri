@@ -1,0 +1,76 @@
+.b-contact{
+	font-family: "Montserrat", sans-serif;
+	padding-top: 40px;
+	h2{
+		font-weight: bold;
+		font-size: 32px;
+		line-height: 39px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #000000;
+		margin-bottom: 27px;
+	}
+	.b-contact_underzag{
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		text-align: center;
+		margin: 0 auto 40px;
+		color: #000000;
+	}
+	.b_contact_input_city{
+		width: 166px;
+	    height: 40px;
+	    float: left;
+	    margin-right: 30px;
+    
+		background: #FFFFFF;
+		border: 1px solid #D0D0D0;
+		box-sizing: border-box;
+		border-radius: 5px;
+	    display: flex;
+	    align-items: center;
+	    @media only screen and (max-width: 492px) {
+	    	margin-right: 0;
+	    	margin-bottom: 30px;
+	    }
+		input{
+			margin-left: 12px;
+			font-family: 'Montserrat', sans-serif;
+			border: 0px;
+			background: none;
+			font-weight: 500;
+			
+			line-height: 17px;
+			color: #D0D0D0;
+			color: #757575;
+			font-size: 14px;
+			padding: 9px 12px;
+		}
+	}
+	.b_contact_but_city{
+		background: linear-gradient(180deg, #E21F69 0%, #A3003D 100%);
+		box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 20px;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;/* identical to box height */
+		text-align: center;
+		width: 166px;
+		height: 40px;
+		color: #FFFFFF;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+	}
+
+	.flex-container{
+		display: flex;
+		justify-content: center;
+		@media only screen and (max-width: 492px) {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+}

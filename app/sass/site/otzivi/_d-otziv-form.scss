@@ -1,0 +1,92 @@
+.d-otziv-form{
+    background-color: #015B77;
+    background-image: url(../img/b_market_filtr_bg.png);
+    font-family: "Montserrat", sans-serif;
+    padding-top: 42px;
+    padding-bottom: 37px;
+    
+    h2, .h2{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;/* identical to box height */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 41px;
+    }
+
+    .es1_otzivy__form_bg__form_photo {
+        width: 166px;
+        height: 166px;
+        cursor: pointer;
+        background: url(../img/form_photo.png) no-repeat center center;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media only screen and (max-width: 992px){
+            float: none;
+        }
+        input{
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+    }
+    .es1_otzivy__form_bg__form_right {
+        .es1_otzivy__form_bg__star{
+            display: flex;
+            align-items: center;
+            color: #fff;
+
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            @media only screen and (max-width: 992px){
+                justify-content: center;
+                width: 100%;
+            }
+                
+        }
+        .es1_otzivy__form_bg__rek{
+            display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                color: #fff;
+    
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                @media only screen and (max-width: 992px){
+                    width: 100%;
+                    justify-content: center;
+                }
+        }
+
+    }
+   
+    .es1_otzivy__form_bg__form_text{
+        margin-bottom: 22px;
+    }
+
+    input[type="submit"]{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;/* identical to box height */
+        text-align: center;
+
+        color: #FFFFFF;
+        background: linear-gradient(180deg, #E21F69 0%, #A3003D 100%);
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        border: none;
+        padding: 9px 14px;
+        text-transform: uppercase;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    
+}

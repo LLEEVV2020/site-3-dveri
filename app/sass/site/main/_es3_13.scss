@@ -1,0 +1,111 @@
+.es3{
+    .es3__phone_number{
+        margin-bottom: 0;
+        a{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 44px;
+        }
+    }
+    .container{
+        padding-bottom: 37px;
+        background-position-y: bottom;
+        background-position-x: 100%;
+    }
+    .interest-ib{
+        display: inline-block;
+        background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+        border-radius: 42px;
+        margin: 0 20px;
+        font-style: normal;
+        text-align: center;
+        padding: 0 30px;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 78px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        @media only screen and (max-width: 480px) {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    .es3__ttl{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 44px;
+        text-transform: uppercase;
+        margin-bottom: 21px;
+        color: #E21F69;
+    }
+
+
+    .es3__ttl_2{
+        display: flex;
+        align-items: center;
+        margin-bottom: 21px;
+        i{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+            &:first-child{
+                align-self: flex-start;
+                @media only screen and (max-width: 991px){
+                    align-self: center;
+                }
+            }
+            &:last-child{
+                align-self: flex-end;
+                @media only screen and (max-width: 991px){
+                    align-self: center;
+                }
+            }
+        }
+        @media only screen and (max-width: 1200px){
+            justify-content: center;
+        }
+        @media only screen and (max-width: 991px){
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        
+
+        @media only screen and (max-width: 480px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .es3__info,
+    .es3__phone_ttx{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        max-width: 635px;
+    }
+
+    @media only screen and (max-width: 1200px){
+        .es3__info, .es3__phone_ttx{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .es3__block{
+        margin-top: 30px;
+        @media only screen and (min-width: 1200px) {
+            
+            
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+}
+

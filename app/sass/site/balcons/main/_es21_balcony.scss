@@ -1,0 +1,70 @@
+.es21_balcony{
+    padding: 40px 0;
+    .flex-wrapper{
+        display: flex;
+        justify-content: space-between;
+        @media only screen and (max-width: 992px){
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-left: 5%;
+        }
+        
+        .item{
+            font-size: 24px;
+            line-height: 29px;
+            display: flex;
+            position: relative;
+            color: #000000;
+            @media only screen and (max-width: 992px){
+                flex-basis: 40%;
+                max-width: 250px;
+            }
+            &::before{
+                position: relative;
+                content: "";
+                display: block;
+                width: 58px;
+                height: 58px;
+                background-position-x: right;
+                background-position-y: center;
+                background-repeat: no-repeat;
+                z-index: 1;
+                margin-right: 13px;
+            }
+            &::after{
+                content: "";
+                transform: translateY(-50%);
+                background-color: #FBC035;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 58px;
+                height: 58px;
+                border-radius: 50%;
+                
+            }
+            &:nth-child(1):before{
+                background-image: url(../img/item1_glass.png);
+            }
+            &:nth-child(2):before{
+                background-image: url(../img/item2_customer-support.png);
+            }
+            &:nth-child(3):before{
+                background-image: url(../img/item3_antique-balcony.png);
+            }
+            &:nth-child(4):before{
+                background-image: url(../img/item4_calculator.png);
+            }
+
+            @media only screen and (max-width: 992px){
+                &:nth-child(3), 
+                &:nth-child(4){
+                    margin-top: 25px;
+                }
+                
+                
+            }
+        }
+        
+    }
+}

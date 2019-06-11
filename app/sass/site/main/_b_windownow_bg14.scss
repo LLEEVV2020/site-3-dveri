@@ -1,0 +1,99 @@
+.b_windownow_bg{
+    background-image: url(../img/b_market_filtr_bg.png);
+    background-color: #FBC035;
+    padding-top: 22px;
+    @media only screen and (max-width: 1200px) {
+        height: auto;
+        padding-bottom: 35px;
+    }
+    
+
+    .flex-container{
+        display: flex;
+        @media only screen and (max-width: 1200px) {
+            justify-content: center;
+        }
+    }
+
+    .b_windownow_text{
+        margin-top: 13px;
+        p{
+            font-weight: 500;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            text-transform: uppercase;
+            margin-bottom: 22px;
+            color: #000000;
+        }
+    }
+    .b_windownow_proc,
+    .b_windownow_man{
+        margin-right: 30px;
+        @media only screen and (max-width: 530px) {
+            margin-bottom: 30px;   
+        }
+    }
+    .b_windownow_man{
+        margin-right: 5vw;
+    }
+    .b_windownow_proc{
+        @media only screen and (max-width: 530px) {
+            margin-right: 0;   
+        }
+    }
+    h4{
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+        color: #000000;
+        margin-bottom: 27px;
+    }
+    .flex-block{
+        display: flex;
+        @media only screen and (max-width: 530px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+    a.b_windownow__btn{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;/* identical to box height */
+        text-align: center;
+
+        color: #FFFFFF;
+        
+        background: linear-gradient(180deg, #1B809D 0%, #015A76 100%);
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        text-transform: uppercase;
+        padding: 9px 15px;
+        display: inline-block;
+
+        @media only screen and (max-width: 340px) {
+            font-size: 16px;
+            line-height: 23px;
+            padding: 8px 7px;
+        }
+        
+    }
+    
+    @media only screen and (max-width: 1200px) {
+        .b_windownow_man{
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 992px) {}
+    @media only screen and (max-width: 768px) {}
+    @media only screen and (max-width: 480px) {}
+
+
+}
+
+

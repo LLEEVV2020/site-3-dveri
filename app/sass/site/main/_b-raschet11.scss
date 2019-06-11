@@ -1,0 +1,72 @@
+.b-raschet{
+    background-image: url(../img/b_market_filtr_bg.png);
+    background-color: #015B77;
+    h2, .h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;/* identical to box height */
+        text-align: center;
+        margin-bottom: 35px;
+        color: #FFFFFF;
+        
+    }
+    .b-raschet__form .b-form__item .b-form__field:before{
+        display: none;
+    }
+    .b-form__block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .b-form__item a{
+            font-family: "Montserrat", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;/* identical to box height */
+            text-align: center;
+            background: linear-gradient(180deg, #E21F69 0%, #A3003D 100%);
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            color: #FFFFFF;
+            display: block;
+            margin-left: 15px;
+            padding: 9px 15px;
+            @media (max-width: 991px){
+                margin-left: 0;
+            }
+        }
+    }
+    
+    .b-form__item{
+       &:first-child{
+        @media only screen and (max-width: 700px){
+            width: 100%;
+        }
+        
+       }
+        span{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;/* identical to box height */
+            
+            color: #FFFFFF;
+        }
+        .b-form_newprice{
+            margin-left: 15px;
+            span{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+                margin-bottom: 1px;
+                display: block;
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,20 @@
+.b_windownow_bg_temp2{
+    background-color: #015A76;
+    color: #fff;
+    h4,
+    .b_windownow_text p{
+        color: #fff;
+    }
+    a.b_windownow__btn{
+        background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+        color: #000;
+        height: 50px;
+        font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+    }
+    .flex-container{
+        transform: translateY(3px);
+    }
+}

@@ -1,0 +1,97 @@
+.reviews{
+    padding-top: 40px;
+    background-image: url(../img/b_market_filtr_bg.png);
+    background-color: #FBC035;
+    font-family: "Montserrat", sans-serif;
+
+    h2, .h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+
+        color: #000000;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .flex-container{
+        display: flex;
+        justify-content: center;
+    }
+    .reviews-block{
+        display: flex;
+        
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        max-width: 40%;
+        padding: 0 15px;
+        img{
+            border-radius: 120px;
+            display: block;
+            margin-bottom: 21px;
+            max-height: 200px;
+        }
+        button{
+            background: linear-gradient(180deg, #1A7E9B 0%, #015B77 100%);
+            border-radius: 20px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            padding: 11px 38px;
+            display: block;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+        }
+        p{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #000000;
+            max-height: 186px;
+            @-moz-document url-prefix() {
+                max-height: 176px;
+            }
+            overflow: hidden;
+            max-width: 270px;
+        }
+        @media only screen and (max-width: 768px) {
+            max-width: 100%;
+        }
+            
+    }
+
+    @media only screen and (max-width: 768px) {
+        .reviews-block + .reviews-block{
+            display: none;
+        }
+    }
+
+}
+
+.es14_bg{
+    padding-top: 40px;
+    background-image: url(../img/b_market_filtr_bg.png);
+    background-color: #FBC035;
+    font-family: "Montserrat", sans-serif;
+    .iosSlider4 {
+        width: 100%;
+        height: 470px;
+        @media only screen and (max-width: 992px) {
+            height: 500px;
+        }
+        @media only screen and (max-width: 768px) {
+            height: 470px;
+        }
+    }
+    .container{
+        display: flex;
+    }
+
+
+}

@@ -1,0 +1,113 @@
+.es17_bg{
+    font-family: "Montserrat", sans-serif;
+    .es17_girl{
+        bottom: 0;
+        right: 0;
+        margin: 0;
+    }
+    .container{
+        position: relative;
+    }
+    .es17_blockbg{
+        position: relative;
+        margin-bottom: 22px;
+    }
+    h3{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+line-height: 39px;
+        text-transform: capitalize;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 26px;
+        @media only screen and (max-width: 992px) {
+            text-align: center;
+        }
+    }
+    .phone{
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 59px;
+        margin-bottom: 35px;
+
+
+        color: #DD0053;
+    }
+     span{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 23px;
+        color: #000000;
+        display: block;
+    }
+    form{
+        display: flex;
+        //flex-wrap: wrap;
+       // width: 800px;
+    }
+    .red-pink-button{
+     margin-left: 0; 
+     margin-bottom: 45px;
+     padding: 9px 36px;
+
+     padding: 13px 53px;
+     border-radius: 30px;
+     font-size: 24px;
+     line-height: 29px;
+     white-space: nowrap;
+     @media only screen and (max-width: 992px) {
+         margin-left: auto;
+         margin-right: auto;
+     }
+    }
+    .agreement{
+        
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .form-group_input{
+        width: 361px;
+        margin-bottom: 30px;
+        height: 55px;
+        background: #FFFFFF;
+        border: 1px solid #D0D0D0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding-top: 0;
+        background-image: url(../img/phone-img.png);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: 14px;
+        @media only screen and (max-width: 992px) {
+            margin-right: 0; 
+        }
+        input{
+            padding-top: 15px;
+            padding-bottom: 25px;
+            padding-left: 55px;
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+}
+.form-group_input{
+    background: #FAFAFA url(../img/b_sms_input.png) no-repeat;
+    width: 264px;
+    height: 40px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 30px;
+    padding-top: 12px;
+    text-align: left;
+    input{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        border: 0px;
+        background: none;
+        margin-left: 40px;
+    }
+}
