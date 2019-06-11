@@ -1,0 +1,32 @@
+.center-menu-wrapper{
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.center-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EDEDED;
+    border-radius: 5px;
+    .item{
+        display: flex;
+        align-items: center;
+        padding: 8px 0 7px;
+        p{
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            /* identical to box height */
+
+            text-decoration-line: underline;
+
+            color: #000000;
+
+        }
+        img{
+            margin-right: 20px;
+        }
+    }
+}
