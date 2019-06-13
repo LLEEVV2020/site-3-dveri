@@ -1,0 +1,35 @@
+.form-group-wrapper{
+    background-image: url(../img/es1_bg_dveri.jpg);
+    .form-group-men{
+        background-image: url(../img/men-img.png);
+    }
+    .form-group-email{
+        background-image: url(../img/email-img.png);
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .red-button{
+        max-width: 300px;
+    }
+    .h2{
+        span{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #FFFFFF;
+            background: -webkit-gradient(linear, left top, left bottom, from(#DF0054), to(#A4164A));
+            background: linear-gradient(180deg, #DF0054 0%, #A4164A 100%);
+            -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+            border-radius: 50px;
+            padding: 11px 23px 10px;
+            text-transform: uppercase;
+            cursor: pointer;
+            display: inline-block;
+        }
+    }
+}
