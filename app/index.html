@@ -624,56 +624,226 @@
 
         </div><!-- /.es12_bg -->
 
-        <div class="es13_bg">
-                <div class="es13_bg__text">
-                    Успей купить до подорожания! <span>ВНИМАНИЕ! ОСТАЛОСЬ ВСЕГО:</span>
-                </div>
-                
-                <script src="../js/jquery.countdown.js"></script>
-                <link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css">
-                <script>
-                    $(function () {
-                        var note = $('#note'),
-                            ts = new Date(2017, 07, 31),
-                            newYear = true;
-                        if ((new Date()) > ts) {
-                            // The new year is here! Count towards something else.
-                            // Notice the *1000 at the end - time must be in milliseconds
-                            ts = (new Date()).getTime() + 10 * 24 * 60 * 60 * 1000;
-                            newYear = false;
-                        }
-                        $('#countdown_es13').countdown({
-                            timestamp: ts,
-                            callback: function (days, hours, minutes, seconds) {
-                            }
-                        });
-                    });
-                </script>
-                <div id="countdown_es13">
-                </div>
-                <div class="container">
-                    <!-- ######### Успей купить до подорожания! ######### -->
-                    <!-- ######### Успей купить до подорожания! ######### -->
-                    <!-- ######### Успей купить до подорожания! ######### -->
-                    <form action="php/mail.php" method="POST">
-                        <input type="hidden" name="lang" value="Успей купить до подорожания!" />
-                        <div class="es13_block">
-                            <div class="es13_item es13_input form-group">
-                                <input type="text" class="phonemask" placeholder="Телефон" data-validation="required"
-                                    id="form_text_9" name="phone" value="" size="0" />
-                            </div>
-                            <div class="es13_item ">
-                                <button class="red-pink-button" type="submit">Зафиксировать <span>цену на 3 дня</span></button>
-                            </div>
-                            <p class="agreement white">Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="#">Правовой информацией</a></p>
-                        </div>
-                    </form>
-                    <!-- ######### Успей купить до подорожания! ######### -->
-                    <!-- ######### Успей купить до подорожания! ######### -->
-                    <!-- ######### Успей купить до подорожания! ######### -->
-                </div>
+        <div class="es13_bg template">
+            <div class="es13_bg__text">
+                Успей купить до подорожания! <span>ВНИМАНИЕ! ОСТАЛОСЬ ВСЕГО:</span>
             </div>
-            <!-- /.es13_bg -->
+            
+            <script src="../js/jquery.countdown.js"></script>
+            <link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css">
+            <script>
+                $(function () {
+                    var note = $('#note'),
+                        ts = new Date(2017, 07, 31),
+                        newYear = true;
+                    if ((new Date()) > ts) {
+                        // The new year is here! Count towards something else.
+                        // Notice the *1000 at the end - time must be in milliseconds
+                        ts = (new Date()).getTime() + 10 * 24 * 60 * 60 * 1000;
+                        newYear = false;
+                    }
+                    $('#countdown_es13').countdown({
+                        timestamp: ts,
+                        callback: function (days, hours, minutes, seconds) {
+                        }
+                    });
+                });
+            </script>
+            <div id="countdown_es13">
+            </div>
+            <div class="container">
+                <!-- ######### Успей купить до подорожания! ######### -->
+                <!-- ######### Успей купить до подорожания! ######### -->
+                <!-- ######### Успей купить до подорожания! ######### -->
+                <form action="php/mail.php" method="POST">
+                    <input type="hidden" name="lang" value="Успей купить до подорожания!" />
+                    <div class="es13_block">
+                        <div class="es13_item es13_input form-group">
+                            <input type="text" class="phonemask" placeholder="Телефон" data-validation="required"
+                                id="form_text_9" name="phone" value="" size="0" />
+                        </div>
+                        <div class="es13_item ">
+                            <button class="red-pink-button" type="submit">Зафиксировать <span>цену на 3 дня</span></button>
+                        </div>
+                        <p class="agreement white">Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="#">Правовой информацией</a></p>
+                    </div>
+                </form>
+                <!-- ######### Успей купить до подорожания! ######### -->
+                <!-- ######### Успей купить до подорожания! ######### -->
+                <!-- ######### Успей купить до подорожания! ######### -->
+            </div>
+        </div>
+        <!-- /.es13_bg -->
+
+
+        <section class="b-karusel2 template slider_doors_wrapper">
+            <div class="container">
+
+                <div class="h2">ЛУЧШИЕ МЕЖКОМНАТНЫЕ ДВЕРИ  </div>
+                
+                    <section class=" slider_doors_js">
+                        
+                        
+                        <div >
+                            <div class="item-rewiews">
+                                <div class="box1">
+                                    <img src="img/door_5.png">
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div >
+                            <div class="item-rewiews">
+                                <div class="box1">
+                                    <img src="img/door_5.png">
+                                </div>
+                               
+                            </div>
+                            
+                        </div>
+                        <div >
+                            <div class="item-rewiews">
+                                <div class="box1">
+                                    <img src="img/door_5.png">
+                                </div>
+                               
+                            </div>
+                            
+                        </div>
+                        <div >
+                            <div class="item-rewiews">
+                                <div class="box1">
+                                    <img src="img/door_5.png">
+                                </div>
+                               
+                            </div>
+                            
+                        </div>
+                        <div >
+                            <div class="item-rewiews">
+                                <div class="box1">
+                                    <img src="img/door_5.png">
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        <div >
+                                <div class="item-rewiews">
+                                    <div class="box1">
+                                        <img src="img/door_5.png">
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                    </section>
+                    <div class="flex">
+   
+                            <button data-toggle="modal" data-target="#kupitDeshevle" class="red-button" type="submit">КУПИТЬ ДВЕРИ</button>
+              
+                        </div>
+                </div>   
+
+                <script type="text/javascript">
+                    // ОТЗЫВЫ
+                        $(document).ready(function(){
+                            $(".slider_doors_js").slick({
+                                
+                                dots: false,
+                                arrows: true,
+                                infinite: true,
+                                slidesToShow: 5,
+                                slidesToScroll: 1,
+                                responsive: [
+                                    {
+                                    breakpoint: 1200,
+                                        settings: {
+                                            slidesToShow: 1,
+                                            slidesToScroll: 1
+                                        }
+                                    }
+                                ]
+                            });
+                        });
+            
+                        
+                      </script>
+        </section>
+        
+
+
+    <!-- /.es13_bg -->
+    <section class="b-karusel2 template slider_doors_wrapper">
+        <script src="js/jquery.roundabout.min.js"></script>
+        <div class="wrapper">
+            <h5>Лучшие межкомнатные двери</h5>
+
+                    <div class="container" style="position:relative;">
+
+                        <div class="door_104">
+                            <div style="margin:0px 60px 0 60px;">
+
+                                    <ul class="container1 roundabout-holder" style="padding: 0px; position: relative;">
+                                       
+                                        
+                                        <li class="door_0 roundabout-moveable-item" >
+                                            <a href="#"><img class="roundabout_image" src="img/block-doors-2.png"></a>
+                                        </li>
+                                        <li class="door_0 roundabout-moveable-item" >
+                                            <a href="#"><img class="roundabout_image" src="img/block-doors-3.png"></a>
+                                        </li>
+                                        <li class="door_0 roundabout-moveable-item" >
+                                            <a href="#"><img class="roundabout_image" src="img/block-doors-2.png"></a>
+                                        </li>
+                                        <li class="door_0 roundabout-moveable-item roundabout-in-focus" >
+                                            <a href="#"><img class="roundabout_image" src="img/block-doors-3.png"></a>
+                                        </li>
+                                        <li class="door_0 roundabout-moveable-item" >
+                                            <a href="#"><img class="roundabout_image" src="img/block-doors-2.png"></a>
+                                        </li>
+                                        <li class="door_0 roundabout-moveable-item" >
+                                            <a href="#"><img class="roundabout_image" src="img/block-doors-3.png"></a>
+                                        </li>
+                                        
+                                        <li class="door_0 roundabout-moveable-item roundabout-in-focus" >
+                                                <a href="#"><img class="roundabout_image" src="img/block-doors-2.png"></a>
+                                            </li>
+                                            <li class="door_0 roundabout-moveable-item" >
+                                                <a href="#"><img class="roundabout_image" src="img/block-doors-3.png"></a>
+                                            </li>
+                                </ul>
+                            </div>
+                            <p class="door_101">
+                                <a href="#" id="previous11" style="float:left;"></a>
+                                <a href="#" id="next11" style="float:right;"></a>
+                            </p>
+                        </div>
+                        <!--<div style="margin: 0px auto 50px; text-align: center;">
+                            <button data-toggle="modal" data-target="#kupitDeshevle-katalog" class="red-button js-fancy door-call_want-cheaper-link">купить двери</button>
+                        </div>-->
+                    </div>
+
+
+
+
+                    <script type="text/javascript">
+                        jQuery(document).ready(function($) {
+
+                            $('.container1').roundabout({
+                                minScale: 0.4,
+                                duration: 400,
+                                minZ: 80,
+                                btnNext: '#next11',
+                                btnPrev: '#previous11',
+                            });
+
+                        });
+                    </script>
+
+         </div>
+    </section>
+    <div class="wave_razd"></div>
 
 
         <div class="es4_balcons template">
@@ -2908,6 +3078,7 @@
         // ОТЗЫВЫ
             $(document).ready(function(){
                 $(".regular").slick({
+
                     dots: true,
                     arrows: false,
                     infinite: true,
