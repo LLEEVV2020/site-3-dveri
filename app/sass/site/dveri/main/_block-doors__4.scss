@@ -3,6 +3,9 @@
 
     .flex-block{
         display: flex;
+        @media only screen and (max-width: 1200px) {
+            flex-wrap: wrap;
+        }
     }
     p{
         font-size: 24px;

@@ -544,7 +544,137 @@
                 </form>
             </div>
         </div>
+        <div class="es7" style="padding: 40px 0 10px;">
         
+            <div class="container flex-container ">
+
+                <div class="item">
+                
+                    <img src="img/es7_ico1.png" alt="">
+                    <div class="item-text">
+                        <h4 class="media-heading">Бесплатный замер</h4>
+                        <div>В компании "Балконы Цены" все замеры бесплатные! 
+                            Замерщик приедет к Вам в любое место и время и посоветует оптимальные материалы.</div>
+                    </div>
+                                    
+                </div>
+
+                <div class="item">
+                    
+                    <img src="img/es7_ico2.png" alt="">
+                    <div class="item-text">
+                        <h4 class="media-heading">Рассрочка 0%</h4>
+                        <div>В "Балконы Цены" беспроцентная рассрочка сроком до 3х лет с минимальным первоначальным взносом.</div>
+                    </div>
+                    
+                
+                </div>
+
+            </div><!-- /.container -->
+
+        </div>
+        <div class="es12_bg">
+
+            <div class="h2">
+                НЕ НУЖНО ПЕРЕПЛАЧИВАТЬ
+            </div>
+
+            <div class="container">
+                <div class="es12__block">
+
+                    <div class="es12_item">
+                        <div class="es12_ico">
+                            <div class="es12_ico__img"><img src="img/dveri_ico1.png" alt="" /></div>
+                            <div class="es12_ico__lenta">экономия
+                                <span>1 250 р.</span>
+                            </div>
+                        </div>
+                        <div class="es12_ico_name">ЗА ЛИШНИЙ ПРОФИЛЬ</div>
+                    </div>
+                    <div class="es12_item _top">
+                        <div class="es12_ico">
+                            <div class="es12_ico__img"><img src="img/dveri_ico2.png" alt="" /></div>
+                            <div class="es12_ico__lenta">экономия
+                                <span>2 100 р.</span>
+                            </div>
+                        </div>
+                        <div class="es12_ico_name">За лишние бренды</div>
+                    </div>
+                    <div class="es12_item">
+                        <div class="es12_ico">
+                            <div class="es12_ico__img"><img src="img/dveri_ico3.png" alt="" /></div>
+                            <div class="es12_ico__lenta">экономия
+                                <span>900 р.</span>
+                            </div>
+                        </div>
+                        <div class="es12_ico_name">За лишние функции</div>
+                    </div>
+                    <div class="es12_item">
+                        <div class="es12_ico">
+                            <div class="es12_ico__img"><img src="img/dveri_ico4.png" alt="" /></div>
+                            <div class="es12_ico__lenta">экономия
+                                <span>1 700 р.</span>
+                            </div>
+                        </div>
+                        <div class="es12_ico_name">ЗА ЛИШНИЕ РАБОТЫ</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div><!-- /.es12_bg -->
+
+        <div class="es13_bg">
+                <div class="es13_bg__text">
+                    Успей купить до подорожания! <span>ВНИМАНИЕ! ОСТАЛОСЬ ВСЕГО:</span>
+                </div>
+                
+                <script src="../js/jquery.countdown.js"></script>
+                <link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css">
+                <script>
+                    $(function () {
+                        var note = $('#note'),
+                            ts = new Date(2017, 07, 31),
+                            newYear = true;
+                        if ((new Date()) > ts) {
+                            // The new year is here! Count towards something else.
+                            // Notice the *1000 at the end - time must be in milliseconds
+                            ts = (new Date()).getTime() + 10 * 24 * 60 * 60 * 1000;
+                            newYear = false;
+                        }
+                        $('#countdown_es13').countdown({
+                            timestamp: ts,
+                            callback: function (days, hours, minutes, seconds) {
+                            }
+                        });
+                    });
+                </script>
+                <div id="countdown_es13">
+                </div>
+                <div class="container">
+                    <!-- ######### Успей купить до подорожания! ######### -->
+                    <!-- ######### Успей купить до подорожания! ######### -->
+                    <!-- ######### Успей купить до подорожания! ######### -->
+                    <form action="php/mail.php" method="POST">
+                        <input type="hidden" name="lang" value="Успей купить до подорожания!" />
+                        <div class="es13_block">
+                            <div class="es13_item es13_input form-group">
+                                <input type="text" class="phonemask" placeholder="Телефон" data-validation="required"
+                                    id="form_text_9" name="phone" value="" size="0" />
+                            </div>
+                            <div class="es13_item ">
+                                <button class="red-pink-button" type="submit">Зафиксировать <span>цену на 3 дня</span></button>
+                            </div>
+                            <p class="agreement white">Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="#">Правовой информацией</a></p>
+                        </div>
+                    </form>
+                    <!-- ######### Успей купить до подорожания! ######### -->
+                    <!-- ######### Успей купить до подорожания! ######### -->
+                    <!-- ######### Успей купить до подорожания! ######### -->
+                </div>
+            </div>
+            <!-- /.es13_bg -->
+
 
         <div class="es4_balcons template">
             <div class="container">
@@ -1038,56 +1168,7 @@
 
         </div><!-- /.es12_bg -->
 
-        <div class="es13_bg">
-            <div class="es13_bg__text">
-                Успей купить до подорожания! <span>ВНИМАНИЕ! ОСТАЛОСЬ ВСЕГО:</span>
-            </div>
-            
-            <script src="../js/jquery.countdown.js"></script>
-            <link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css">
-            <script>
-                $(function () {
-                    var note = $('#note'),
-                        ts = new Date(2017, 07, 31),
-                        newYear = true;
-                    if ((new Date()) > ts) {
-                        // The new year is here! Count towards something else.
-                        // Notice the *1000 at the end - time must be in milliseconds
-                        ts = (new Date()).getTime() + 10 * 24 * 60 * 60 * 1000;
-                        newYear = false;
-                    }
-                    $('#countdown_es13').countdown({
-                        timestamp: ts,
-                        callback: function (days, hours, minutes, seconds) {
-                        }
-                    });
-                });
-            </script>
-            <div id="countdown_es13">
-            </div>
-            <div class="container">
-                <!-- ######### Успей купить до подорожания! ######### -->
-                <!-- ######### Успей купить до подорожания! ######### -->
-                <!-- ######### Успей купить до подорожания! ######### -->
-                <form action="php/mail.php" method="POST">
-                    <input type="hidden" name="lang" value="Успей купить до подорожания!" />
-                    <div class="es13_block">
-                        <div class="es13_item es13_input form-group">
-                            <input type="text" class="phonemask" placeholder="Телефон" data-validation="required"
-                                id="form_text_9" name="phone" value="" size="0" />
-                        </div>
-                        <div class="es13_item ">
-                            <button class="red-pink-button" type="submit">Зафиксировать <span>цену на 3 дня</span></button>
-                        </div>
-                        <p class="agreement white">Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="#">Правовой информацией</a></p>
-                    </div>
-                </form>
-                <!-- ######### Успей купить до подорожания! ######### -->
-                <!-- ######### Успей купить до подорожания! ######### -->
-                <!-- ######### Успей купить до подорожания! ######### -->
-            </div>
-        </div>
-        <!-- /.es13_bg -->
+       
 
         <div class="giving es6_balcons template">
             <div class="container">
