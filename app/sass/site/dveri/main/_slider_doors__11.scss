@@ -4,6 +4,21 @@
         background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
         color: #000;
     }
+    .box1{
+        
+        .red-button{
+            background: linear-gradient(180deg, #DF0054 0%, #A3003D 100%);
+            border-radius: 22px 22px 0px 0px;
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+            font-size: 16px;
+            line-height: 22px;
+            color: #fff;
+            padding-bottom: 3px;
+            padding-top: 4px;
+        }
+    }
    .flex{
        display: flex;
        justify-content: center;
@@ -132,4 +147,68 @@
     .container3 .door_0{
         width: 180px;
     }
+}
+
+.slider_doors_wrapper2{
+    .slider_doors_js2{
+        height: 305px;
+        margin-bottom: 110px;
+        padding: 0 30px;
+    }
+    .slick-prev, .slick-next{
+        top: 70%;
+    }
+    .slick-list {
+        //transform: translateX(-15px);
+        transform: translateX(3px);
+    }
+    .slick-slide{
+        opacity: 0;
+    }
+    .slick-active{
+        opacity: 1;
+        position: relative;
+        //transform: translateX(-13px);
+        
+    }
+    .slick-slide img {
+        
+        width: 100%;
+        transform: scale(1.55);
+    }
+    .slick-track{
+        padding-top: 70px;
+    }
+    .slick-active + .slick-active,
+    .slick-active + .slick-active + .slick-active + .slick-active{
+        transform: scale(0.9) ;
+    }
+    .slick-active + .slick-active + .slick-active + .slick-active + .slick-active,
+    .slick-current.slick-active {
+        transform: scale(0.8) ;
+    }
+    .slick-current.slick-active{
+        img {
+            transform: scale(1.55) translateX(21px);
+        }
+    }
+    .slick-active + .slick-active + .slick-active + .slick-active + .slick-active{
+        img {
+            transform: scale(1.55) translateX(-21px);
+        }
+    }
+    .slick-current.slick-active + .slick-active + .slick-active{
+        z-index: 2;
+    }
+    .slick-current.slick-active + .slick-active + .slick-active +.slick-active {
+        z-index: 1;
+    }
+    .box1{
+        .red-button{
+            left: 40px;
+            z-index: 3;
+        }
+        
+    }
+
 }
