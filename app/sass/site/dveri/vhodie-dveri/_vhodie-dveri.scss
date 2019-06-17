@@ -1,5 +1,5 @@
 .vhodie-dveri{
-    .ykazite-stoimost{
+    .ykazite-stoimost{ 
         background: #EDEDED;
         border-radius: 5px;
         font-size: 24px;
@@ -30,6 +30,12 @@
         font-size: 32px;
         line-height: 39px;
         margin-bottom: 40px;
+    }
+    .dver-wrap-card + .dver-wrap-card{
+        padding-top: 40px;
+        margin-top: 40px;
+        border-top: 3px solid #EDEDED;
+
     }
 
     .grid-block{
