@@ -1,6 +1,12 @@
 .es1.es1_vhodnie_dveri{
     background-image: url(../img/es1_vhodnie_dveri.jpg);
-    &::after{
+    .es1__pict{
         display: none;
+    }
+    .es1-wrapper-decor{
+        max-width: 340px;
+        h1{
+            padding-left: 5px;
+        }
     }
 }
