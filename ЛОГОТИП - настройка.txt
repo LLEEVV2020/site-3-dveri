@@ -1,0 +1,6 @@
+		<link rel="icon" href="https://xn--b1ademal9afwh6h.xn--p1ai/wp-content/uploads/2019/06/cropped-logo-32x32.png" sizes="32x32">
+<link rel="icon" href="https://xn--b1ademal9afwh6h.xn--p1ai/wp-content/uploads/2019/06/cropped-logo-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="https://xn--b1ademal9afwh6h.xn--p1ai/wp-content/uploads/2019/06/cropped-logo-180x180.png">
+<meta name="msapplication-TileImage" content="https://xn--b1ademal9afwh6h.xn--p1ai/wp-content/uploads/2019/06/cropped-logo-270x270.png">
+
+
