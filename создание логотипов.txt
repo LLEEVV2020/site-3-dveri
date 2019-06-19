@@ -6,7 +6,8 @@ https://hostiq.ua/blog/favicon-wordpress/
 
 
  
+//<?php echo $_SERVER['SERVER_NAME']; ?>/img/
 
+//<?php echo $_SERVER['SERVER_NAME']; ?>/php/
 
-
-
+//<?php echo $_SERVER['SERVER_NAME']; ?>/js/
