@@ -5,7 +5,7 @@
     background-size: auto;
     background-position-x: right;
     min-height: auto;
-   
+    overflow: visible; 
     padding-bottom: 27px;
     &::before{
         content: "";
@@ -68,12 +68,12 @@
         height: 110px;
         background-image: url(../img/garantii100.png);
         background-size: cover;
-        transform: translateX(-28px);
+        transform: translateX(-37px) translateY(14px) scale(1.25);
         margin-right: -17px;
     }
     .es1_skidka__block{
         width: auto;
-        margin-left: 20px;
+        margin-left: 0;
     }
     .es1_skidka__block_item{
         padding-right: 7px;

@@ -1,0 +1,55 @@
+.finishing_balconies._main {
+  background-image: url(../img/accii-bg.jpg);
+  margin-bottom: 0;
+}
+
+.finishing_balconies._main .es1__pict {
+  background-image: url(../img/finishing_balconies_men.png);
+  background-position-x: right;
+}
+
+.finishing_balconies._main .es1-flex-wrap {
+  margin-top: 125px;
+}
+
+@media only screen and (max-width: 992px) {
+  .finishing_balconies._main .es1-flex-wrap {
+    margin-top: 25px;
+  }
+}
+
+.finishing_balconies._main .es1-flex-wrap .name-abs {
+  top: -53%;
+  left: 57%;
+  text-align: right;
+}
+
+.finishing_balconies._main .action-img {
+  display: inline-block;
+  -webkit-transform: translate(164px, -43px);
+          transform: translate(164px, -43px);
+}
+
+@media only screen and (max-width: 1200px) {
+  .finishing_balconies._main .action-img {
+    -webkit-transform: translate(0px, 5px);
+            transform: translate(0px, 5px);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .finishing_balconies._main .action-img img {
+    margin-top: 4vh;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .finishing_balconies._main .action-img img {
+    margin-left: 10vw;
+  }
+}
+
+.finishing_balconies._main .es1__block {
+  margin-top: 33px;
+}
+/*# sourceMappingURL=b1_finishing_balconies.css.map */
