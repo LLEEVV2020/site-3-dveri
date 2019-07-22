@@ -2843,6 +2843,7 @@ input::-webkit-input-placeholder {
       grid-column-start: 1;
   grid-column-end: 3;
   z-index: 1;
+  width: 208px;
 }
 
 .es14_bg_custom .item-rewiews .box1, .es14_bg_custom .item-rewiews .box1 img {
@@ -2852,6 +2853,10 @@ input::-webkit-input-placeholder {
 .es14_bg_custom .item-rewiews .box1 img {
   border-radius: 50%;
   border: 4px solid #fff;
+  width: 100%;
+  height: 208px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .es14_bg_custom .item-rewiews .box2 {
@@ -8635,6 +8640,9 @@ input::-webkit-input-placeholder {
   background-image: url(../img/bg-1.jpg);
   padding-top: 39px;
   padding-bottom: 40px;
+  background-position-x: 50%;
+  background-color: #EDEDED;
+  background-repeat: no-repeat;
 }
 
 .form-group-wrapper .form-group-men {
