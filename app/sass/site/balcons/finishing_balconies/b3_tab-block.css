@@ -1,0 +1,97 @@
+.tab-block {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.tab-block .wrap-tabs .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.tab-block .wrap-tabs .tabs .tab {
+  font-size: 24px;
+  line-height: 29px;
+  width: 200px;
+  height: 40px;
+  color: #000000;
+  background: #EDEDED;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tab-block .wrap-tabs .tabs .tab.active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFD054), to(#F2AD27));
+  background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+}
+
+.tab-block .wrap-tabs .content .tab-content {
+  display: none;
+}
+
+.tab-block .wrap-tabs .content .tab-content.active {
+  display: block;
+}
+
+.tab-block .flex-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.tab-block .img-right {
+  display: inline-block;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.tab-block .text {
+  max-width: 359px;
+  font-size: 24px;
+  line-height: 29px;
+  margin-right: 42px;
+  color: #000000;
+}
+
+.tab-block .price {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 420px;
+  height: 205px;
+  background-image: url(../img/price_bg.png);
+  background-image: url(../img/price_bg2.png);
+}
+
+.tab-block .red-button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFD054), to(#F2AD27));
+  background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  width: 334px;
+  color: #000;
+  margin-left: 20px;
+  margin-top: 135px;
+}
+
+.price_2018 {
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/*# sourceMappingURL=b3_tab-block.css.map */

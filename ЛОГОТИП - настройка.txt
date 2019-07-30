@@ -4,3 +4,23 @@
 <meta name="msapplication-TileImage" content="https://xn--b1ademal9afwh6h.xn--p1ai/wp-content/uploads/2019/06/cropped-logo-270x270.png">
 
 
+
+
+
+СТИЛИ CSS (не завершённый)
+.top_block__logo a{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    display: block;
+    line-height: 1.12;
+    position: relative;
+}
+.top_block__logo a span{
+    display: block;
+    width: 98px;
+    position: absolute;
+    top: 1px;
+    right: -6px;
+}

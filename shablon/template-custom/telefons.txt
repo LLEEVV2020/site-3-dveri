@@ -1,0 +1,12 @@
+1) (главная) /wp-content/themes/twentynineteen/template-custom/
+header.php
+
+2) (главная) /wp-content/themes/twentynineteen/template-custom/main/
+b-raschet12
+
+3) (главная) /wp-content/themes/twentynineteen/template-custom/main/
+es3_13.php
+
+4) (главная) /wp-content/themes/twentynineteen/template-custom/
+footer-main.php
+
