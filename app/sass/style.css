@@ -3819,6 +3819,9 @@ input::-webkit-input-placeholder {
   display: block;
   border-radius: 50%;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 166px;
 }
 
 .es1_otzivy_bg .es1_otzivy_item__otztext {
