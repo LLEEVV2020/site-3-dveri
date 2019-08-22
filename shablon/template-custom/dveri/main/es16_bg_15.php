@@ -1,7 +1,7 @@
 <link href="//<?php echo $_SERVER['SERVER_NAME']; ?>/css/zoom-showcase.css" rel="stylesheet">
    <div class="es16_bg es16_bg_big">
     <div class="h2">
-        Ремонты, выполненные в 2019 году
+        ДВЕРИ, УСТАНОВЛЕННЫЕ в 2019 году
     </div>
     <div class="thanky">
         <div class="zoom-gallery" id="zoom-instance-1" style="margin: 0px auto;  height: 397px;">

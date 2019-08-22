@@ -11,7 +11,7 @@
                         value="13" />
                         <input type="hidden" name="lang" value="отзыв клиента" />
             <input type="hidden" name="name_my_mail" value="<?php if(empty(get_option('my_mail')) ){
-                                                          echo "ecookna68@mail.ru";
+                                                          echo "avoshnikov@yandex.ru";
                                                       }
                                                       else{
                                                           echo get_option('my_mail'); 

@@ -24,7 +24,7 @@
                                                           echo get_option('my_phone'); 
                                                       } ?></abbr></div>
                             <p class="email"><?php if(empty(get_option('my_mail')) ){
-                                                          echo "ecookna68@mail.ru";
+                                                          echo "avoshnikov@yandex.ru";
                                                       }
                                                       else{
                                                           echo get_option('my_mail'); 

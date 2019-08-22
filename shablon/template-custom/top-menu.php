@@ -26,4 +26,10 @@
         
         
     </nav><!-- #site-navigation -->
+    <style>
+    .top_menu.navbar-default .navbar-nav > li.current_page_item > a{
+        z-index: 1;
+    }
+
+    </style>
 <?php endif; 

@@ -10,6 +10,11 @@
     justify-content: space-around;
     background-color: #EDEDED;
     border-radius: 5px;
+    
+    @media only screen and (max-width: 650px) {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
     .item{
         display: flex;
         align-items: center;

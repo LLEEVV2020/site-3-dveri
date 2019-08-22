@@ -4,6 +4,9 @@
             flex: 1;
                 align-items: flex-start;
             padding-right: 12px;
+            @media only screen and (max-width: 768px) {
+                align-items: center;
+            }
             .item {
                 .head{
                     font-weight: bold;

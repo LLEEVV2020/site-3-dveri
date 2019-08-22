@@ -8,7 +8,7 @@
                 
                 <div class="es17_blockbg">
                     <h3>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</h3>
-                    <div class="time">Ежедневно с 8:00 до 22:00</div>
+                    <div class="time">Ежедневно с 8:00 до 23:00</div>
                     <div class="phone"><?php if(empty(get_option('my_phone')) ){
                                                           echo "8 (4752) 33-33-35";
                                                       }
@@ -22,7 +22,7 @@
                     <form action="//<?php echo $_SERVER['SERVER_NAME']; ?>/php/mail.php" method="POST">
                         <input type="hidden" name="lang" value="Бесплатная консультация" />
                         <input type="hidden" name="name_my_mail" value="<?php if(empty(get_option('my_mail')) ){
-                                                          echo "ecookna68@mail.ru";
+                                                          echo "avoshnikov@yandex.ru";
                                                       }
                                                       else{
                                                           echo get_option('my_mail'); 

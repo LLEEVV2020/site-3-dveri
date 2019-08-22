@@ -20,7 +20,7 @@
                     <form action="//<?php echo $_SERVER['SERVER_NAME']; ?>/php/mail.php" method="POST">
                         <input type="hidden" name="lang" value="СМС-СКИДКА" />
                         <input type="hidden" name="name_my_mail" value="<?php if(empty(get_option('my_mail')) ){
-                                                          echo "ecookna68@mail.ru";
+                                                          echo "avoshnikov@yandex.ru";
                                                       }
                                                       else{
                                                           echo get_option('my_mail'); 

@@ -10,7 +10,7 @@
                 <div >
                     <div class="item-rewiews">
                         <div class="box1">
-                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5.png">
+                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5_1.png" style="width: 186px; height: 415px;">
 
                             <div class="red-button">ВЫГОДНО  </div>
                         </div>
@@ -20,18 +20,7 @@
                 <div >
                     <div class="item-rewiews">
                         <div class="box1">
-                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5.png">
-
-                            <div class="red-button">ВЫГОДНО  </div>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div >
-                    <div class="item-rewiews">
-                        <div class="box1">
-                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5.png">
+                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5_2.png" style="width: 186px; height: 415px;">
 
                             <div class="red-button">ВЫГОДНО  </div>
                         </div>
@@ -42,7 +31,7 @@
                 <div >
                     <div class="item-rewiews">
                         <div class="box1">
-                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5.png">
+                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5_3.png" style="width: 186px; height: 415px;">
 
                             <div class="red-button">ВЫГОДНО  </div>
                         </div>
@@ -53,7 +42,7 @@
                 <div >
                     <div class="item-rewiews">
                         <div class="box1">
-                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5.png">
+                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5_4.png" style="width: 186px; height: 415px;">
 
                             <div class="red-button">ВЫГОДНО  </div>
                         </div>
@@ -64,7 +53,18 @@
                 <div >
                     <div class="item-rewiews">
                         <div class="box1">
-                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5.png">
+                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5_5.png" style="width: 186px; height: 415px;">
+
+                            <div class="red-button">ВЫГОДНО  </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div >
+                    <div class="item-rewiews">
+                        <div class="box1">
+                            <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/door_5_3.png" style="width: 186px; height: 415px;">
 
                             <div class="red-button">ВЫГОДНО  </div>
                         </div>

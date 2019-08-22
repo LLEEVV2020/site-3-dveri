@@ -2,10 +2,9 @@
     <div class="container">
         <div class="es1__pict"></div>
         <div class="es1__block">
-            <h1>НА ВСЕ
-                <span>ВСТРОЕННЫЕ</span>
-                <span>ШКАФЫ КУПЕ</span>
-                СКИДКА</h1>
+            <h1>КУПИТЕ
+                <span>ДВЕРИ</span>
+                СО СКИДКОЙ</h1>
                 <div class="action-img"><img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/accii.png" alt=""></div>
 
         </div>

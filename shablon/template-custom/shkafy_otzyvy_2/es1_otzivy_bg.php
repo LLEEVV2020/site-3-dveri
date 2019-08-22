@@ -14,14 +14,14 @@
                 <div class="es1_otzivy_item">
 
                     <div class="es1_otzivy_item__img">
-                        <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/otziv1.png" alt="СВЕТЛАНА - фото" >
+                        <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/reviews1_2.png" alt="СВЕТЛАНА - фото" >
                     </div>
 
 
                     <div class="es1_otzivy_item__right">
                         <div class="es1_otzivy_item__otztext">
                             <div class="es1_otzivy_item__otztext__name">СВЕТЛАНА <div
-                                    class="es1_otzivy_item__otztext__city">Г. МОСКВА</div>
+                                    class="es1_otzivy_item__otztext__city">Г. <?php echo get_option('my_city_1v'); ?></div>
                             </div>
 
                             <div class="es1_otzivy_item__otztext__text">Нужен был встроенный шкаф в детскую комнату для девочки и желательно
@@ -60,14 +60,14 @@
                 <div class="es1_otzivy_item">
 
                     <div class="es1_otzivy_item__img">
-                        <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/otziv1.png" alt="СВЕТЛАНА - фото" >
+                        <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/reviewsnew_1.jpg" alt="СВЕТЛАНА - фото" >
                     </div>
 
 
                     <div class="es1_otzivy_item__right">
                         <div class="es1_otzivy_item__otztext">
                             <div class="es1_otzivy_item__otztext__name"><h5>Вероника Сыроварова </h5> <div
-                                    class="es1_otzivy_item__otztext__city">Г. МОСКВА</div>
+                                    class="es1_otzivy_item__otztext__city">Г. <?php echo get_option('my_city_1v'); ?></div>
                             </div>
 
                             <div class="es1_otzivy_item__otztext__text">Ребята, спасибо! Шкаф в нашей прихожей стоит как влитой, как будто всегда там и был!)) Наконец разложили все вещи, и место еще осталось!)) Как надумаем обновить шкаф в спальне, снова к вам и только к вам!  
@@ -107,7 +107,7 @@
                     <div class="es1_otzivy_item__right">
                         <div class="es1_otzivy_item__otztext">
                             <div class="es1_otzivy_item__otztext__name"><h5>Регина Казанцева </h5> <div
-                                    class="es1_otzivy_item__otztext__city">Г. МОСКВА</div>
+                                    class="es1_otzivy_item__otztext__city">Г. <?php echo get_option('my_city_1v'); ?></div>
                             </div>
 
                             <div class="es1_otzivy_item__otztext__text">Заказали у вас шкаф для бабушки нашей. Она поначалу не хотела, потому что привыкла к своим вещам, не хотела изменять обстановку. Теперь благодарит очень и радуется новому шкафу. Спасибо за профессионализм и быструю работу. 
@@ -139,3 +139,8 @@
 
             </div>
         </div><!-- /.container -->
+<style>
+    .es1_otzivy_item__otztext__city{
+            text-transform: uppercase;
+    }
+</style>  

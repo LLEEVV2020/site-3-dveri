@@ -3,18 +3,18 @@
 <div class="center-menu-wrapper">
     <div class="container">
         <div class="template center-menu">
-            <div class="item">
+            <a href="//<?php echo $_SERVER['SERVER_NAME']; ?>" class="item">
                 <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/flex-lbl1.png" alt="">
                 <p>МЕЖКОМНАТНЫЕ ДВЕРИ</p>
-            </div>
-            <div class="item">
+            </a>
+            <a href="//<?php echo $_SERVER['SERVER_NAME']; ?>/vkhodnye-dveri"  class="item">
                 <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/flex-lbl2.png" alt="">
                 <p>ВХОДНЫЕ ДВЕРИ</p>
-            </div>
-            <div class="item">
+            </a>
+            <a href="//<?php echo $_SERVER['SERVER_NAME']; ?>/razdvizhnye-dveri"  class="item">
                 <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/flex-lbl3.png" alt="">
                 <p>РАЗДВИЖНЫЕ ДВЕРИ</p>
-            </div>
+            </a>
         </div>
     </div>
 </div>

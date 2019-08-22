@@ -77,7 +77,12 @@
 
 
                 <div class="info">
-                    ПОЗВОНИТЕ ПРЯМО СЕЙЧАС <span>8 (495) 021-20-12</span>.
+                    ПОЗВОНИТЕ ПРЯМО СЕЙЧАС <span><?php if(empty(get_option('my_phone')) ){
+                                                          echo "8 (917) 122-28-80";
+                                                      }
+                                                      else{
+                                                          echo get_option('my_phone'); 
+                                                      } ?></span>.
                     МЫ РАССКАЖЕМ ЧТО ЛУЧШЕ ДЛЯ ВАС!
                         
                 </div>

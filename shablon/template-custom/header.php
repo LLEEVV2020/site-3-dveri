@@ -7,7 +7,7 @@
                 /*если забыли добавить логотип, то вставится по умолчанию логотип*/
                 //2 the_custom_logo(); ?>
         <?php //3 else : ?>
-            <a href="/" > <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/logo.jpg" alt="Двери цены" /> </a>
+            <a href="/" > <img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/logo.jpg" alt="Двери Купить" /> </a>
 	    <?php //4 endif; ?>
         
     </div>
@@ -37,5 +37,8 @@
 <style>
     .menu-top_menu-container{
         width: 100%;
+    }
+    .top_menu.navbar-default .navbar-nav .menu-item-has-children > a{
+        z-index: 1;
     }
 </style>

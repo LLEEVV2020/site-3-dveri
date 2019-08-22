@@ -9,3 +9,13 @@
     </div>
 </div>
 <!-- /.b-radar -->
+<style>
+.b-radar .b-radar_bg{
+    -webkit-transform: scale(0.65);
+    transform: scale(0.65);
+}
+.b-radar {
+    overflow: visible;
+    margin: 83px auto;
+}
+</style>

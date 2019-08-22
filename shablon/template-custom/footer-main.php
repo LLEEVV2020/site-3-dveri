@@ -24,12 +24,12 @@
         
                         <div class="b-right">
                             <span>e-mail: <a href="mailto:<?php if(empty(get_option('my_mail')) ){
-                                                          echo "ecookna68@mail.ru";
+                                                          echo "avoshnikov@yandex.ru";
                                                       }
                                                       else{
                                                           echo get_option('my_mail'); 
                                                       } ?>"> <?php if(empty(get_option('my_mail')) ){
-                                                          echo "ecookna68@mail.ru";
+                                                          echo "avoshnikov@yandex.ru";
                                                       }
                                                       else{
                                                           echo get_option('my_mail'); 
