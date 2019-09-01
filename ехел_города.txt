@@ -1,109 +1,114 @@
 my_city_v_o
 
 В Москве  и области
-в Санкт-Петербурге и области
-в Новосибирске и области
-в Екатеринбурге и области
-в Нижний Новгороде и области
-в Казане и республике
+в Санкт-Петербурге и области  xn----7sbeiia6axumbcqds.xn--b1ademal9afwh6h.xn--p1ai
+в Новосибирске и области xn--90absbknhbvge.xn--b1ademal9afwh6h.xn--p1ai
+в Екатеринбурге и области  xn--80acgfbsl1azdqr.xn--b1ademal9afwh6h.xn--p1ai
+в Нижний Новгороде и области 	xn--b1acdfjbh2acclca1a.xn--b1ademal9afwh6h.xn--p1ai
+в Казане и республике xn--80aauks4g.xn--b1ademal9afwh6h.xn--p1ai
 
-в Челябинске и области
-в Омске и области
-в Самаре и области
-в Ростове-на-Дону и области
-в Уфе и республике
-в Красноярске и крае
-в Воронеже и области
-в Перми и крае
-в Волгограде и области
-в Краснодаре и крае
-в Саратове и области
-в Тюмене и области
-в Тольятти и области
-в Ижевске и республике
-в Барнауле и крае
-в Ульяновске и области
-в Иркутске и области
-в Хабаровске и крае
-в Ярославле и области
-в Владивостоке  и крае
-в Махачкале и республике
-в Томске и области
-в Оренбурге и области
-в Кемерово и области
-в Новокузнецке и области
-в Рязане и области
-в Астрахане и области
-в Набережных Челнах и республике
-в Пензе и области
-в Кирове и области
-в Липецке и области
-в Чебоксаре и республике
-в Калининграде и области
-в Туле и области
-в Балашихе  и области
-в Курске и области
-в Севастополе 
-в Сочи  и крае
-в Ставрополе  и крае
-в Улан-Уде и республике
-в Твери и области
-в Магнитогорске и области
-в Брянске и области
-в Иванове и области
-в Белгороде и области
-в Сургуте и в автономном округе
-в Владимире и области  
-в Нижнем Тагиле и области  
-в Архангельске и области  
-в Чите и крае
-в Симферополе и республике
-в Калуге  и области
-в Смоленске   и области
-в Волжске и республике (марий эл)
-в Саранске и республике 
-в Якутске  и республике
-в Череповце  и области
-в Кургане и области
-в Орле и области
-в Вологде и области
-в Владикавказе и республике 
-в Подольске и области
-в Грозном и республике
-в Мурманске и области
-в Тамбове и области
-в Петрозаводске и республике 
-в Стерлитамаке и республике 
-в Нижневартовске и в автономном округе
+в Челябинске и области	xn--90ahkico2a6b9d.xn--b1ademal9afwh6h.xn--p1ai
+в Омске и области	xn--j1adfn.xn--b1ademal9afwh6h.xn--p1ai
+в Самаре и области	xn--80aaa0cvac.xn--b1ademal9afwh6h.xn--p1ai
+в Ростове-на-Дону и области	xn-----7kcgn5cdbagnnnx.xn--b1ademal9afwh6h.xn--p1ai
+в Уфе и республике	xn--80a1bd.xn--b1ademal9afwh6h.xn--p1ai
+в Красноярске и крае	xn--80atblfjdfd2l.xn--b1ademal9afwh6h.xn--p1ai
+в Воронеже и области	xn--b1agd0aean.xn--b1ademal9afwh6h.xn--p1ai
+в Перми и крае		xn--e1aohf5d.xn--b1ademal9afwh6h.xn--p1ai
+в Волгограде и области	xn--80addag2buct.xn--b1ademal9afwh6h.xn--p1ai
+в Краснодаре и крае	xn--80aalwqglfe.xn--b1ademal9afwh6h.xn--p1ai
+в Саратове и области	xn--80aag1ciek.xn--b1ademal9afwh6h.xn--p1ai
+в Тюмене и области	xn--e1aner7ci.xn--b1ademal9afwh6h.xn--p1ai
+в Тольятти и области	xn--h1afipca2eya.xn--b1ademal9afwh6h.xn--p1ai
+в Ижевске и республике	xn--b1afchn5b.xn--b1ademal9afwh6h.xn--p1ai
 
+2
+в Барнауле и крае	xn--80aab6birx.xn--b1ademal9afwh6h.xn--p1ai
+в Ульяновске и области	xn--b1aqbiftj7e1a.xn--b1ademal9afwh6h.xn--p1ai
+в Иркутске и области	xn--h1aeawgfg.xn--b1ademal9afwh6h.xn--p1ais
+в Хабаровске и крае	xn--80aacf4bwnk3a.xn--b1ademal9afwh6h.xn--p1ai
+в Ярославле и области 	xn--80aezclli6gta.xn--b1ademal9afwh6h.xn--p1ai
+в Владивостоке  и крае	xn--80adbhunc2aa3al.xn--b1ademal9afwh6h.xn--p1ai
+в Махачкале и республике	xn--80aaaa2chc7eta.xn--b1ademal9afwh6h.xn--p1ai
+в Томске и области		xn--j1adfnc.xn--b1ademal9afwh6h.xn--p1ai
+в Оренбурге и области		xn--90aee6admdx.xn--b1ademal9afwh6h.xn--p1ai
+в Кемерово и области	xn--b1afaslnbn.xn--b1ademal9afwh6h.xn--p1ai
+в Новокузнецке и области	xn--b1agflcndeb5cwb.xn--b1ademal9afwh6h.xn--p1ai
+в Рязане и области		xn--80antj7do.xn--b1ademal9afwh6h.xn--p1ai
+в Астрахане и области	xn--80aaa6cmfh0a9d.xn--b1ademal9afwh6h.xn--p1ai
+в Набережных Челнах и республике	xn--80acmaaaf6bkfd3a9g8bf.xn--b1ademal9afwh6h.xn--p1ai
+в Пензе и области	xn--80ajgxi.xn--b1ademal9afwh6h.xn--p1ai
+в Кирове и области	xn--b1alfrj.xn--b1ademal9afwh6h.xn--p1ai
+в Липецке и области	xn--e1afhbv7b.xn--b1ademal9afwh6h.xn--p1ai
+в Чебоксаре и республике	xn--80ablvtof7b4b.xn--b1ademal9afwh6h.xn--p1ai
+в Калининграде и области	xn--80aaifraljtb8a.xn--b1ademal9afwh6h.xn--p1ai
+в Туле и области	xn--80avue.xn--b1ademal9afwh6h.xn--p1ai
 
+3
+в Балашихе  и области		xn--80aaab1bq6ewa.xn--b1ademal9afwh6h.xn--p1ai
+в Курске и области	xn--j1aarei.xn--b1ademal9afwh6h.xn--p1ai
+в Севастополе xn--80adi0aoagldk8i.xn--b1ademal9afwh6h.xn--p1ai
+в Сочи  и крае	xn--h1aliz.xn--b1ademal9afwh6h.xn--p1ai
+в Ставрополе  и крае	xn--80ae1alafffj1i.xn--b1ademal9afwh6h.xn--p1ai
+в Улан-Уде и республике		xn----7sbnzl7ae5f.xn--b1ademal9afwh6h.xn--p1ai
+в Твери и области		xn--b1ag7af7c.xn--b1ademal9afwh6h.xn--p1ai
+в Магнитогорске и области	xn--80agatlhjjbulh.xn--b1ademal9afwh6h.xn--p1ai
+в Брянске и области		xn--90asilg6f.xn--b1ademal9afwh6h.xn--p1ai
+в Иванове и области	xn--80adbv1agb.xn--b1ademal9afwh6h.xn--p1ai
+в Белгороде и области	xn--90aedc4atap.xn--b1ademal9afwh6h.xn--p1ai
+в Сургуте и в автономном округе		xn--c1azcgcc.xn--b1ademal9afwh6h.xn--p1ai
+в Владимире и области  xn--80adhqaok7a.xn--b1ademal9afwh6h.xn--p1ai
+в Нижнем Тагиле и области  xn----8sbjjjbdewlc7d.xn--b1ademal9afwh6h.xn--p1ai
+в Архангельске и области  	xn--80aajizflwo8a1f.xn--b1ademal9afwh6h.xn--p1ai
+в Чите и крае		xn--80ap4as.xn--b1ademal9afwh6h.xn--p1ai
+в Симферополе и республике	xn--e1afkclaggf6a2g.xn--b1ademal9afwh6h.xn--p1ai
+в Калуге  и области		xn--80aai0ag2c.xn--b1ademal9afwh6h.xn--p1ai
+в Смоленске   и области	xn--e1akbdhdtf.xn--b1ademal9afwh6h.xn--p1ai
+в Волжске и республике (марий эл)	xn--b1aigedeu0a.xn--b1ademal9afwh6h.xn--p1ai
 
-в Костроме и области
-в Новороссийске и крае
-в Йошкар-Оле и республике 
-в Химке и области
-в Таганроге и области
-в Комсомольск-на-Амуре и крае
-в Сыктывкаре и республике 
-в Нижнекамске и республике 
-в Нальчике и республике 
-в Шахтах и области
-в Дзержинске и области
-в Орске и области
-в Братске и области
-в Энгельсе и области
-в Ангарске и области
-в Благовещенске и области
-в Королёве и области
-в Великом Новгороде и области
-в Старом Осколе и области
-в Мытищи и области
-в Пскове и области
-в Люберцах и области
-в Южно-Сахалинске и области
-в Бийске и крае
-в Прокопьевске и области
-в Армавире и крае
+4
+в Саранске и республике		xn--80aa4alnee.xn--b1ademal9afwh6h.xn--p1ai 
+в Якутске  и республике	xn--j1aaude4e.xn--b1ademal9afwh6h.xn--p1ai
+в Череповце  и области	xn--b1afab7bff7cb.xn--b1ademal9afwh6h.xn--p1ai
+в Кургане и области	xn--80afuomr.xn--b1ademal9afwh6h.xn--p1ai
+в Орле и области	xn--e1amhi.xn--b1ademal9afwh6h.xn--p1ai
+в Вологде и области	xn--80adde7arb.xn--b1ademal9afwh6h.xn--p1ai
+в Владикавказе и республике xn--80aaafckyesce.xn--b1ademal9afwh6h.xn--p1ai
+в Подольске и области	xn--d1amckbds1g.xn--b1ademal9afwh6h.xn--p1ai
+в Грозном и республике	xn--c1aigpdl4f.xn--b1ademal9afwh6h.xn--p1ai
+в Мурманске и области	xn--80aueagpkl.xn--b1ademal9afwh6h.xn--p1ai
+в Тамбове и области		xn--80acd2blu.xn--b1ademal9afwh6h.xn--p1ai
+в Петрозаводске и республике 	xn--80aegbkvxddlre.xn--b1ademal9afwh6h.xn--p1ai
+в Стерлитамаке и республике 	xn--80aanmmcj2ahke.xn--b1ademal9afwh6h.xn--p1ai
+в Нижневартовске и в автономном округе		xn--80adbjeltrcnvok.xn--b1ademal9afwh6h.xn--p1ai
+в Костроме и области	xn--80atghalgi.xn--b1ademal9afwh6h.xn--p1ai
+в Новороссийске и крае	xn--b1amdelgbarlac.xn--b1ademal9afwh6h.xn--p1ai
+в Йошкар-Оле и республике xn----7sbb7afirdq1f.xn--b1ademal9afwh6h.xn--p1ai
+в Химке и области	xn--h1aafh7b.xn--b1ademal9afwh6h.xn--p1ai
+в Таганроге и области		xn--80aaib3cgnl.xn--b1ademal9afwh6h.xn--p1ai
+в Комсомольск-на-Амуре и крае	xn-----7kcbzzahiagihbb4bfe9b2l.xn--b1ademal9afwh6h.xn--p1ai
+
+5
+в Сыктывкаре и республике 	xn--80adxb5abi4ec.xn--b1ademal9afwh6h.xn--p1ai
+в Нижнекамске и республике 	xn--80ajchmbncc8b.xn--b1ademal9afwh6h.xn--p1ai
+в Нальчике и республике xn--80aqgci6d8a.xn--b1ademal9afwh6h.xn--p1ai
+в Шахтах и области	xn--80a0biks.xn--b1ademal9afwh6h.xn--p1ai
+в Дзержинске и области	xn--d1acdchmuvm.xn--b1ademal9afwh6h.xn--p1ai
+в Орске и области		xn--j1ahge.xn--b1ademal9afwh6h.xn--p1ai
+в Братске и области	xn--80ab2awgf.xn--b1ademal9afwh6h.xn--p1ai
+в Энгельсе и области		xn--c1aesfx9dc.xn--b1ademal9afwh6h.xn--p1ai
+в Ангарске и области		xn--80aai3amuh.xn--b1ademal9afwh6h.xn--p1ai
+в Благовещенске и области	xn--80abedla9acxg1b7f.xn--b1ademal9afwh6h.xn--p1ai
+в Королёве и области		xn--b1afoeoan.xn--b1ademal9afwh6h.xn--p1ai
+в Великом Новгороде и области		xn--b1aadecsaihi0amca3a.xn--b1ademal9afwh6h.xn--p1ai
+в Старом Осколе и области		xn--80asdenbkgef5h.xn--b1ademal9afwh6h.xn--p1ai
+в Мытищи и области	xn--h1aaky0bj.xn--b1ademal9afwh6h.xn--p1ai
+в Пскове и области		xn--b1apmck.xn--b1ademal9afwh6h.xn--p1ai
+в Люберцах и области			xn--90aiqw4a4aq.xn--b1ademal9afwh6h.xn--p1ai
+в Южно-Сахалинске и области	xn----8sbavnmfmfe8af1c2h.xn--b1ademal9afwh6h.xn--p1ai
+в Бийске и крае		xn--90aode8a.xn--b1ademal9afwh6h.xn--p1ai
+в Прокопьевске и области		xn--b1afocqbedfq2j.xn--b1ademal9afwh6h.xn--p1ai
+в Армавире и крае		xn--80aagyrxe.xn--b1ademal9afwh6h.xn--p1ai
 
 
 

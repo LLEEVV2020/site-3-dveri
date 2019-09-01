@@ -13,6 +13,7 @@
     @media only screen and (max-width: 650px){
         background-image: none;
     }
+    
     .form-group-men{
         background-image: url(../img/men-img.png);
     }
@@ -45,6 +46,9 @@
 
             margin: 0 auto;
             display: flex;
+        }
+        @media only screen and (max-width: 450px){
+            min-width: 100%;
         }
     }
     
