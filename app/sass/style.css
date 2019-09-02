@@ -8417,9 +8417,22 @@ input::-webkit-input-placeholder {
   margin-right: -17px;
 }
 
+@media only screen and (max-width: 450px) {
+  .es1_doors.es1 .garantii100 {
+    width: 100%;
+    display: none;
+  }
+}
+
 .es1_doors.es1 .es1_skidka__block {
   width: auto;
   margin-left: 0;
+}
+
+@media only screen and (max-width: 450px) {
+  .es1_doors.es1 .es1_skidka__block {
+    width: 100%;
+  }
 }
 
 .es1_doors.es1 .es1_skidka__block_item {
@@ -8731,6 +8744,13 @@ input::-webkit-input-placeholder {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .form-group-wrapper form {
+    min-width: 100%;
+    width: 100%;
   }
 }
 

@@ -70,10 +70,18 @@
         background-size: cover;
         transform: translateX(-37px) translateY(14px) scale(1.25);
         margin-right: -17px;
+        @media only screen and (max-width: 450px){
+            width: 100%;
+            display: none;
+        }
     }
     .es1_skidka__block{
         width: auto;
         margin-left: 0;
+        @media only screen and (max-width: 450px){
+            width: 100%;
+        }
+
     }
     .es1_skidka__block_item{
         padding-right: 7px;
