@@ -1,7 +1,7 @@
       <section class="b-karusel2 template slider_doors_wrapper slider_doors_wrapper2">
             <div class="container">
 
-                <div class="h2">ЛУЧШИЕ МЕЖКОМНАТНЫЕ ДВЕРИ  </div>
+                <div class="h2">ЛУЧШИЕ ВХОДНЫЕ ДВЕРИ  </div>
                 
                     <section class=" slider_doors_js2">
                         
@@ -93,10 +93,25 @@
                                     {
                                     breakpoint: 1200,
                                         settings: {
-                                            slidesToShow: 1,
+                                            slidesToShow: 3,
+                                            slidesToScroll: 1
+                                        }
+                                    },
+                                    {
+                                    breakpoint: 600,
+                                        settings: {
+                                            slidesToShow: 2,
+                                            slidesToScroll: 1
+                                        }
+                                    },
+                                    {
+                                    breakpoint: 450,
+                                        settings: {
+                                            slidesToShow: 2,
                                             slidesToScroll: 1
                                         }
                                     }
+                                    
                                 ]
                             });
                         });
@@ -107,5 +122,25 @@
                           .slider_doors_js2 .item-rewiews{
                               padding-bottom: 62px;
                           }
+                          @media only screen and (max-width: 1200px){
+                              .slider_doors_wrapper2 .slick-slide{
+                                      -webkit-transform:  scale(1) !important;
+                                      transform: scale(1) !important;
+                              }
+                              .slider_doors_js2 img{
+                                  position: relative;
+                              }
+                          }
+                          @media only screen and (max-width: 450px){
+                              .slider_doors_wrapper2 .slick-slide{
+                                  -webkit-transform:  scale(0.8) !important;
+                                    transform: scale(0.8) !important;
+                              }
+                              .slider_doors_wrapper2 .box1 .red-button{
+                                      bottom: -2vh;
+                              }
+                          }
+                          
+                          
                       </style>
         </section> 

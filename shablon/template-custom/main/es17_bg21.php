@@ -8,7 +8,12 @@
                 
                 <div class="es17_blockbg">
                     <h3>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</h3>
-                    <div class="time">Ежедневно с 8:00 до 23:00</div>
+                    <div class="time">Ежедневно <?php if(empty(get_option('time_grafik')) ){
+                                                          echo "с 8:00 до 23:00";
+                                                      }
+                                                      else{
+                                                          echo get_option('time_grafik'); 
+                                                      } ?></div>
                     <div class="phone"><?php if(empty(get_option('my_phone')) ){
                                                           echo "8 (4752) 33-33-35";
                                                       }

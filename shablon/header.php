@@ -107,6 +107,7 @@
     <script src="//<?php echo $_SERVER['SERVER_NAME']; ?>/js/twentytwenty-master/jquery.twentytwenty.js"></script>
 
     <script src="//<?php echo $_SERVER['SERVER_NAME']; ?>/js/compile.js?1"></script>
+    <script src="//<?php echo $_SERVER['SERVER_NAME']; ?>/php2/common.js"></script>
     
     <!--logo-->
     <link rel="icon" href="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/cropped-logo-32x32.png" sizes="32x32">
@@ -120,7 +121,24 @@
 
 <div id="page" class="site main">
 	
-    
+ 	
+<div class="modal-overlay closed"></div>
+<div class="f_modal f_spasibo closed" id="spasibo">
+    <h2>Спасибо!</h2>
+    <p>Мы приняли вашу заявку,
+        наш менеджер скоро с вами
+        свяжется!</p>
+    <div class="razmetka2">
+        <div  class="b_btn" id="s_close">Закрыть
+    </div>
+</div>
+</div>  
+<input type="hidden" id="hidden_tel_def"  value="<?php if(empty(get_option('email_hidden')) ){
+                                                          echo "avoshnikov@yandex.ru";
+                                                      }
+                                                      else{
+                                                          echo get_option('email_hidden'); 
+                                                      }  ?>" />   
 
    
     

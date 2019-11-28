@@ -17,23 +17,16 @@
                             <!-- ######### СМС-СКИДКА ######### -->
                             <!-- ######### СМС-СКИДКА ######### -->
                             <!-- ######### СМС-СКИДКА ######### -->
-                            <form action="//<?php echo $_SERVER['SERVER_NAME']; ?>/php/mail.php" method="POST">
-                                <input type="hidden" name="lang" value="СМС-СКИДКА" />
-                                <input type="hidden" name="name_my_mail" value="<?php if(empty(get_option('my_mail')) ){
-                                                          echo "avoshnikov@yandex.ru";
-                                                      }
-                                                      else{
-                                                          echo get_option('my_mail'); 
-                                                      }  ?>" />
-                                <div class="b-sms_input b-sms_input_tel form-group">
-                                    <input type="text" class="phonemask input-phone" data-validation="required"
-                                        placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0" />
-
-                                </div>
-                                <div class="b-sms_but">
-                                    <button class="red-button" type="submit">отправить</button>
-                                </div>
-                            </form>
+                            <form action="javascript:void(0);">
+                        <input id="sms_price" type="hidden" name="lang" value="СМС-СКИДКА" />
+                        <div class="b-sms_input b-sms_input_tel form-group">
+                            <input type="text" class="phonemask input-phone" data-validation="required"
+                                placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0" />
+                        </div>
+                        <div class="b-sms_but">
+                            <button class="red-button sms_price" type="submit">отправить</button>
+                        </div>
+                    </form>
                             <!-- ######### СМС-СКИДКА ######### -->
                             <!-- ######### СМС-СКИДКА ######### -->
                             <!-- ######### СМС-СКИДКА ######### -->

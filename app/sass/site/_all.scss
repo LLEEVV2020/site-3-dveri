@@ -99,3 +99,99 @@ s.b-zamer:before {
 .es13_bg .countSeconds ~ span {
     display: none !important;
 }
+
+
+// модальное окно
+.f_spasibo{
+    display: block;
+    overflow: visible;
+    border-radius: 30px;
+    width: 350px;
+    max-width: 90%;
+    padding: 15px;
+    max-height: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+    padding-top: 50px;
+}
+.f_modal h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+        color: #005B1F;
+}
+.f_modal p{
+    text-align: center;
+    margin: 20px 0;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.razmetka2 {
+    max-width: 260px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.f_modal .razmetka2 {
+    
+    position: relative;
+    max-width: 282px;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+    bottom: auto;
+}
+.b_btn {
+    background: -webkit-gradient(linear, left top, left bottom, from(#00bd40 ), to(#008B2F));
+    background: linear-gradient(180deg, #00bd40  0%, #008B2F   100%);
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 9px 19px;
+    width: 281px;
+    cursor: pointer;
+    color: #fff;
+}
+.b_btn:hover{
+    background: -webkit-gradient(linear, left top, left bottom, from(#00ab3a ), to(#0a5f27));
+        background: linear-gradient(180deg, #00ab3a 0%, #0a5f27 100%);
+}
+
+
+.f_modal .razmetka2 .b_btn {
+        margin: auto;
+width: 170px;
+        
+}
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.6);
+}
+.closed {
+    display: none;
+}
+
+ input::-webkit-input-placeholder { color: #D0D0D0; }
+input:-ms-input-placeholder { color: #D0D0D0; }
+input::-ms-input-placeholder { color: #D0D0D0; }
+input::placeholder { color: #D0D0D0; } 

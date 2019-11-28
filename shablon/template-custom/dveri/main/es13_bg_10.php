@@ -29,15 +29,15 @@
         <!-- ######### Успей купить до подорожания! ######### -->
         <!-- ######### Успей купить до подорожания! ######### -->
         <!-- ######### Успей купить до подорожания! ######### -->
-        <form action="//<?php echo $_SERVER['SERVER_NAME']; ?>/php/mail.php" method="POST">
-            <input type="hidden" name="lang" value="КУПИТЕ ДВЕРИ ПО НИЗКОЙ ЦЕНЕ! " />
+        <form action="javascript:void(0);">
+            <input id="chetchik_price" type="hidden" name="lang" value="КУПИТЕ ДВЕРИ ПО НИЗКОЙ ЦЕНЕ! " />
             <div class="es13_block">
                 <div class="es13_item es13_input form-group">
                     <input type="text" class="phonemask" placeholder="Ваш телефон" data-validation="required"
-                        id="form_text_9" name="phone" value="" size="0" />
+                        id="chetchik_phone" name="phone" value="" size="0" />
                 </div>
                 <div class="es13_item ">
-                    <button class="red-pink-button" type="submit">Зафиксировать <span>цену на 3 дня</span></button>
+                    <button class="red-pink-button chetchik_price" type="submit">Зафиксировать <span>цену на 3 дня</span></button>
                 </div>
                 <p class="agreement white">Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="#">Правовой информацией</a></p>
             </div>

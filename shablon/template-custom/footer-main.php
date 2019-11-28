@@ -19,7 +19,12 @@
                             </a>
                             
                             
-                            <div class="es19_time hidden-md hidden-sm hidden-xs">Ежедневно с 9:00 до 23:00 </div>
+                            <div class="es19_time hidden-md hidden-sm hidden-xs">Ежедневно <?php if(empty(get_option('time_grafik')) ){
+                                                          echo "с 8:00 до 23:00";
+                                                      }
+                                                      else{
+                                                          echo get_option('time_grafik'); 
+                                                      } ?>  </div>
                         </div>
         
                         <div class="b-right">

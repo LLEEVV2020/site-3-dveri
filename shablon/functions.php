@@ -360,15 +360,20 @@ function display_phone(){
 function mail_more_options(){
   add_settings_field('mail','Eмайл','display_mail','general');
   register_setting('general','my_mail');
+  register_setting('general','email_hidden');
+  register_setting('general','time_grafik');
 }
 add_action('admin_init','mail_more_options');
 function display_mail(){
-  echo "<input type='text' name='my_mail' value='".esc_attr(get_option('my_mail'))."'>";		
+  	echo "<div><input type='text' name='my_mail' value='".esc_attr(get_option('my_mail'))."'> <span>емайл который виден на сайте, чтоб его скрыть пишем &nbsp;</span><div>";	
+  echo "<div><input type='text' name='email_hidden' value='".esc_attr(get_option('email_hidden'))."'> <span>емайл скрытый, для отправки писем</span><div>";		
+  echo "<div><input type='text' name='time_grafik' value='".esc_attr(get_option('time_grafik'))."'> <span>Время работы. Например с с 8:00 до 20:00</span><div>";		
 }
 
 /*города*/
 function city_more_options(){
   add_settings_field('city','Города','display_city','general');
+    register_setting('general','my_city_1v');
   register_setting('general','my_city_v');
   register_setting('general','my_city_v_o');
   register_setting('general','my_city_po');
@@ -376,11 +381,31 @@ function city_more_options(){
 }
 add_action('admin_init','city_more_options');
 function display_city(){
+    echo "<div><input placeholder='Москва' type='text' name='my_city_1v' value='".esc_attr(get_option('my_city_1v'))."'>Москва</i> </span></div>";	
   echo "<div><input placeholder='В Москве' type='text' name='my_city_v' value='".esc_attr(get_option('my_city_v'))."'> <span>В Москве</span> <span><i>es2_doors_2.php (главная)</i> </span></div>";	
   echo "<div><input placeholder='В Москве' type='text' name='my_city_v_o' value='".esc_attr(get_option('my_city_v_o'))."'> <span>В Москве  и области</span> <span><i>es6_doors_3.php (главная)</i> </span></div>";	
   echo "<div><input placeholder='по всей Москве и области' type='text' name='my_city_po' value='".esc_attr(get_option('my_city_po'))."'> <span>по всей Москве и области</span> <i>АДРЕСА И ТЕЛЕФОНЫ --> contact-wrap.php</i></div>";	
     echo "<div><input placeholder='от Москвы' type='text' name='my_city_ot' value='".esc_attr(get_option('my_city_ot'))."'> <span>от Москвы</span> <i>АДРЕСА И ТЕЛЕФОНЫ --> b_contact.php</i></div>";	
 }
+
+/*адреса*/
+function adress_more_options(){
+	add_settings_field('adress','Адреса','display_adress','general');
+	register_setting('general','my_adress_1');
+	register_setting('general','my_adress_2');
+	register_setting('general','karta_adressa');
+	register_setting('general','radar');
+    register_setting('general','rekviziti');
+  }
+  add_action('admin_init','adress_more_options');
+  function display_adress(){
+	  echo "<div><input placeholder='адрес 1' type='text' name='my_adress_1' value='".esc_attr(get_option('my_adress_1'))."'> <span>Контакт 1</span> <span><i> my_adress_1 </i> </span></div>";	
+	  echo "<div><input placeholder='адрес 2' type='text' name='my_adress_2' value='".esc_attr(get_option('my_adress_2'))."'> <span>Контакт 2</span> <i> my_adress_2 </i></div>";	
+	  echo "<div><input placeholder='карта 2гис' type='text' name='karta_adressa' value='".esc_attr(get_option('karta_adressa'))."'> <span> </span> <i>karta_adressa</i></div>";	
+	  echo "<div><input placeholder='radar' type='text' name='radar' value='".esc_attr(get_option('radar'))."'> <span> </span> <i>radar</i></div>";	
+      echo "<div><input placeholder='rekviziti' type='text' name='rekviziti' value='".esc_attr(get_option('rekviziti'))."'> <span> </span> <i>реквизиты</i></div>";	
+  }
+
 
 function city_lat_more_options(){
   add_settings_field('city_lat_name','City','display_city_lat','general');

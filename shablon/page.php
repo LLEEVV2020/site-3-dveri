@@ -40,7 +40,7 @@ get_header();
                 get_template_part( 'template-custom/dveri/vkhodnye-dveri/es1_vhodnie_dveri_1' );
                 get_template_part( 'template-custom/dveri/vkhodnye-dveri/finishing_balconies_calc_2' );
                 get_template_part( 'template-custom/dveri/main/sms-discount_5' ); /*смс-скидка*/
-                get_template_part( 'template-custom/dveri/vkhodnye-dveri/vhodie-dveri_5' );
+                get_template_part( 'template-custom/dveri/vkhodnye-dveri/vhodie-dveri_5' ); /*Список дверей*/
                 get_template_part( 'template-custom/dveri/main/center-menu-wrapper_6' ); /*маленькое меню из трех элементов*/
                 get_template_part( 'template-custom/dveri/vkhodnye-dveri/quick-calculation_7' );
                 get_template_part( 'template-custom/dveri/main/es7_padding_8' );
@@ -53,9 +53,10 @@ get_header();
                 get_template_part( 'template-custom/dveri/main/es12_bg_9' ); /*НЕ НУЖНО ПЕРЕПЛАЧИВАТЬ*/
                 ?></div><?php 
                 get_template_part( 'template-custom/dveri/main/es13_bg_10'); /*СЧЁТЧИК*/
-                get_template_part( 'template-custom/dveri/vkhodnye-dveri/vhodnie_dveri_slider_15'); 
+                get_template_part( 'template-custom/dveri/vkhodnye-dveri/vhodnie_dveri_slider_15');  /*ЛУЧШИЕ ВХОДНЫЕ ДВЕРИ*/
                 get_template_part( 'template-custom/main/giving__13' );  /*ЗАКАЗЧИКИ САМОЕ ЦЕННОЕ – МЫ ЭТО ПОНИМАЕМ!*/
-                get_template_part( 'template-custom/main/es14__14' ); /*отзывы*/
+                //get_template_part( 'template-custom/main/es14__14' ); /*отзывы*/
+                get_template_part( 'template-custom/dveri/main/es14_bg_custom_13');/*отзывы*/
                 get_template_part( 'template-custom/dveri/main/map-wrapper_14');
                 get_template_part( 'template-custom/dveri/main/es16_bg_15');
                 
@@ -73,7 +74,7 @@ get_header();
                 
                 get_template_part( 'template-custom/dveri/vkhodnye-dveri/finishing_balconies_calc_2' );
                 get_template_part( 'template-custom/dveri/main/sms-discount_5' ); /*смс-скидка*/
-                get_template_part( 'template-custom/dveri/razdviznie-okna/vhodie-dveri_5_2' );
+                get_template_part( 'template-custom/dveri/razdviznie-okna/vhodie-dveri_5_2' ); /*РАЗДВИЖНЫЕ ДВЕРИ*/
                 
                 
                 get_template_part( 'template-custom/dveri/main/center-menu-wrapper_6' ); /*маленькое меню из трех элементов*/
@@ -90,7 +91,8 @@ get_header();
                 get_template_part( 'template-custom/dveri/main/es13_bg_10'); /*СЧЁТЧИК*/
                // get_template_part( 'template-custom/dveri/vkhodnye-dveri/vhodnie_dveri_slider_15'); /** Слайлдер дверей сложный */
                 get_template_part( 'template-custom/main/giving__13' );  /*ЗАКАЗЧИКИ САМОЕ ЦЕННОЕ – МЫ ЭТО ПОНИМАЕМ!*/
-                get_template_part( 'template-custom/main/es14__14' ); /*отзывы*/
+                //get_template_part( 'template-custom/main/es14__14' ); /*отзывы*/
+                get_template_part( 'template-custom/dveri/main/es14_bg_custom_13');/*отзывы*/
                 get_template_part( 'template-custom/dveri/main/map-wrapper_14');
                 get_template_part( 'template-custom/dveri/main/es16_bg_15');
                 
@@ -103,21 +105,23 @@ get_header();
                 get_template_part( 'template-custom/header' ); 
                 get_template_part( 'template-custom/top-menu' ); 
 
-                get_template_part( 'template-custom/gde_kupit_shkafy_3/accii_temp' ); 
-                get_template_part( 'template-custom/main/map19' ); 
-                get_template_part( 'template-custom/gde_kupit_shkafy_3/b_contact' ); 
-                get_template_part( 'template-custom/gde_kupit_shkafy_3/b_radar' ); 
+                get_template_part( 'template-custom/gde_kupit_shkafy_3/accii_temp' ); /**РАБОТАЕМ ПО ВСЕМУ ТОЛЬЯТТИ И ОБЛАСТИ: */
+                get_template_part( 'template-custom/main/map19' ); /*карта*/
+                get_template_part( 'template-custom/gde_kupit_shkafy_3/b_contact' ); /*когда мож*/
+                get_template_part( 'template-custom/gde_kupit_shkafy_3/b_radar' ); /*радар*/
                 get_template_part( 'template-custom/gde_kupit_shkafy_3/b_contact_ceo_bg' ); /*письмо директору*/
                 get_template_part( 'template-custom/dveri/main/es13_bg_10'); /*СЧЁТЧИК*/
                 get_template_part( 'template-custom/dveri/main/slider_doors_wrapper_11');
                 get_template_part( 'template-custom/main/giving__13' );  /*ЗАКАЗЧИКИ САМОЕ ЦЕННОЕ – МЫ ЭТО ПОНИМАЕМ!*/
-                get_template_part( 'template-custom/main/es14__14' ); /*отзывы*/
+                //get_template_part( 'template-custom/main/es14__14' ); /*отзывы*/
+                get_template_part( 'template-custom/dveri/main/es14_bg_custom_13');/*отзывы*/
                 
                 get_template_part( 'template-custom/main/map19' );
                 get_template_part( 'template-custom/dveri/main/es16_bg_15'); /*РЕМОНТЫ, ВЫПОЛНЕННЫЕ В 2019 ГОДУ*/
                 
 
-                get_template_part( 'template-custom/main/es17_bg21' ); /*БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ*/
+                //get_template_part( 'template-custom/main/es17_bg21' ); /*БЕСПЛАТНАЯ */
+                get_template_part( 'template-custom/main/es20_balcony__17' ); /*БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ*/
                 get_template_part( 'template-custom/dveri/main/center-menu-wrapper_6' ); /*маленькое меню из трех элементов*/
 
                 get_template_part( 'template-custom/footer-main' ); /*footer*/
@@ -137,7 +141,8 @@ get_header();
 
                 get_template_part( 'template-custom/dveri/main/es13_bg_10'); /*СЧЁТЧИК*/
                 
-                get_template_part( 'template-custom/main/es14__14' ); /*отзывы*/
+                //get_template_part( 'template-custom/main/es14__14' ); /*отзывы*/
+                get_template_part( 'template-custom/dveri/main/es14_bg_custom_13');/*отзывы*/
                 get_template_part( 'template-custom/main/map19' );  /*карта*/
                 
                 get_template_part( 'template-custom/dveri/main/es16_bg_15'); /*РЕМОНТЫ, ВЫПОЛНЕННЫЕ В 2019 ГОДУ*/
@@ -167,7 +172,8 @@ get_header();
 
                 get_template_part( 'template-custom/dveri/main/es16_bg_15'); /*РЕМОНТЫ, ВЫПОЛНЕННЫЕ В 2019 ГОДУ*/
 
-                get_template_part( 'template-custom/main/es17_bg21' ); /*БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ*/
+                //get_template_part( 'template-custom/main/es17_bg21' ); /*БЕСПЛАТНАЯ */
+                get_template_part( 'template-custom/main/es20_balcony__17' ); /*БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ*/
                 get_template_part( 'template-custom/dveri/main/center-menu-wrapper_6' ); /*маленькое меню из трех элементов*/
 
 
@@ -183,7 +189,12 @@ get_header();
 
 
                 get_template_part( 'template-custom/dveri/akczii-i-skidki/akczii-i-skidki' ); 
+            
+            ?><div style="margin-top: -6px;"><?php
                 get_template_part( 'template-custom/main/es3_balcons__3' ); /*СМС СКИДКА*/
+            ?></div>
+                <?php            
+                
                 get_template_part( 'template-custom/dveri/akczii-i-skidki/aktsii-wrap' );
                 get_template_part( 'template-custom/dveri/main/form-group-wrapper_7' );
                 get_template_part( 'template-custom/dveri/main/es7_padding_8' );
@@ -196,14 +207,15 @@ get_header();
                 get_template_part( 'template-custom/dveri/main/es13_bg_10'); /*СЧЁТЧИК*/
                 get_template_part( 'template-custom/dveri/main/slider_doors_wrapper_11'); /*Слайдер дверей не сложный*/
                 get_template_part( 'template-custom/main/giving__13' );  /*ЗАКАЗЧИКИ САМОЕ ЦЕННОЕ – МЫ ЭТО ПОНИМАЕМ!*/
-                get_template_part( 'template-custom/main/es14__14' ); /*отзывы*/
-                
+                //get_template_part( 'template-custom/main/es14__14' ); /*отзывы*/
+                get_template_part( 'template-custom/dveri/main/es14_bg_custom_13');/*отзывы*/
                 
                 get_template_part( 'template-custom/main/map19' );
                  get_template_part( 'template-custom/dveri/main/es16_bg_15'); /*РЕМОНТЫ, ВЫПОЛНЕННЫЕ В 2019 ГОДУ*/
 
 
-                get_template_part( 'template-custom/main/es17_bg21' ); /*БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ*/
+                //get_template_part( 'template-custom/main/es17_bg21' ); /*БЕСПЛАТНАЯ */
+                get_template_part( 'template-custom/main/es20_balcony__17' ); /*БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ*/
                  get_template_part( 'template-custom/dveri/main/center-menu-wrapper_6' ); /*маленькое меню из трех элементов*/
 
 

@@ -25,7 +25,7 @@
                     <div class="es1_sale">63% </div>
                 </div>
 
-                <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+                <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">
                     <div class="b-top__zamer_ruler "></div>
                     <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span><br>
                         выезд замерщика</div>

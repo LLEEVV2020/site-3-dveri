@@ -64,8 +64,13 @@
                         </div>
                         <div class="item item-main">
                         
-                        <div><b style="font-weight: 700;">Звоните ежедневно</b> 
-                        с 8:00 до 23:00</div>
+                        <div><b style="font-weight: 700;     display: block;">Звоните ежедневно</b> 
+                        <?php if(empty(get_option('time_grafik')) ){
+                                                          echo "с 8:00 до 23:00";
+                                                      }
+                                                      else{
+                                                          echo get_option('time_grafik'); 
+                                                      } ?></div>
                         
                             
                             <div class="tel"> <abbr class="value" title="<?php if(empty(get_option('my_phone')) ){
@@ -94,12 +99,14 @@
                         </div>
                         <div class="item">
                             <div class="head">Центральный офис</div>
-                            <p class="workhours">г. Тамбов, ул. Рылеева,
-                        д.63 В  </p><br>
+                            <p class="workhours"><?php if(empty(get_option('my_adress_1')) ){
+                                                          echo "";
+                                                      }
+                                                      else{
+                                                          echo get_option('my_adress_1'); 
+                                                      } ?>  </p><br>
                         <p style="color: #AAAAAA;">
-                        Проезд до остановки "Учкомбинат":<br>
-                        Автобусами: 14А, 14П, 18, 18А, 18С, 22, 28, 44, 55, 60, 60М, 61<br>
-                        Маршрутка: 30, 61.
+                        
                         </p>
                         <p style="color: #AAAAAA;">
 
@@ -114,10 +121,13 @@
                         </div>
                         <div class="item">
                             <div class="head">Реквизиты</div>
-                            <p class="email">ООО “Двери купить”<br>
-                        ИНН 7726370558 <br>
-                        ОГРН 1167746224095 <br>
-                        Р/С 40702810038000019853</p>
+                            <p class="email"><?php if(empty(get_option('rekviziti')) ){ echo 
+    "ООО “Двери купить”";
+                              }
+                              else{
+                                  echo get_option('rekviziti'); 
+                              } ?><br>
+                            </p>
                         </div>
                         </div>
 

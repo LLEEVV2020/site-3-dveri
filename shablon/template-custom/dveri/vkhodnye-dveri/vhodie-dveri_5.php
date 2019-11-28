@@ -1,6 +1,6 @@
 <!--vhodie-dveri-5-->
 <!--Главный блок вычислятор-->
-    <div class="vhodie-dveri" style="padding-top: 40px;
+    <div class="vhodie-dveri dver-w-c-head" style="padding-top: 40px;
     background-color: #fff;">
         <div class="container">
             <div class="ykazite-stoimost">
@@ -120,7 +120,7 @@
                             </label>
 
                         </div>
-                        <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+                        <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">
                             <div class="b-top__zamer_ruler "></div>
                             <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span>
                                 выезд замерщика</div>
@@ -260,7 +260,7 @@
                                 </label>
 
                             </div>
-                            <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+                            <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">
                                 <div class="b-top__zamer_ruler "></div>
                                 <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span>
                                     выезд замерщика</div>
@@ -403,7 +403,7 @@
                                 </label>
 
                             </div>
-                            <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+                            <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">
                                 <div class="b-top__zamer_ruler "></div>
                                 <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span>
                                     выезд замерщика</div>
@@ -546,7 +546,7 @@
                                 </label>
 
                             </div>
-                            <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+                            <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">
                                 <div class="b-top__zamer_ruler "></div>
                                 <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span>
                                     выезд замерщика</div>
@@ -689,7 +689,7 @@
                                 </label>
 
                             </div>
-                            <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+                            <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">
                                 <div class="b-top__zamer_ruler "></div>
                                 <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span>
                                     выезд замерщика</div>
@@ -832,7 +832,7 @@
                                 </label>
 
                             </div>
-                            <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+                            <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">
                                 <div class="b-top__zamer_ruler "></div>
                                 <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span>
                                     выезд замерщика</div>
@@ -976,7 +976,7 @@
                                 </label>
 
                             </div>
-                            <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+                            <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">
                                 <div class="b-top__zamer_ruler "></div>
                                 <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span>
                                     выезд замерщика</div>
@@ -1119,7 +1119,7 @@
                                 </label>
 
                             </div>
-                            <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+                            <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">
                                 <div class="b-top__zamer_ruler "></div>
                                 <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span>
                                     выезд замерщика</div>
@@ -1262,7 +1262,7 @@
                                 </label>
 
                             </div>
-                            <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+                            <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">
                                 <div class="b-top__zamer_ruler "></div>
                                 <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span>
                                     выезд замерщика</div>
@@ -1406,7 +1406,7 @@
                                 </label>
 
                             </div>
-                            <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+                            <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">
                                 <div class="b-top__zamer_ruler "></div>
                                 <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span>
                                     выезд замерщика</div>

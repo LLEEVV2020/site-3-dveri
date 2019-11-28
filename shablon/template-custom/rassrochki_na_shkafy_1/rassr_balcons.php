@@ -2,7 +2,7 @@
                 <div class="container">
                      
                     <div class="es1__block">
-                        <h1>БАЛКОНЫ
+                        <h1>ДВЕРИ
 <span>В РАССРОЧКУ БЕЗ</span>
 <span class="decor_0">ПЕРЕПЛАТЫ</span></h1>
                         <div class="es1__menu">
@@ -22,3 +22,8 @@
                     </div>
                 </div>
             </div>
+            <style>
+                .rassr_balcons.rassr_bg.es1 .decor_0{
+                        flex-wrap: wrap;
+                }
+</style>
